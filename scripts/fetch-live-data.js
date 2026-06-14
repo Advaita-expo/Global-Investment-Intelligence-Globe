@@ -5,9 +5,12 @@ const crypto = require("node:crypto");
 const ROOT = path.resolve(__dirname, "..");
 const OUT_FILE = path.join(ROOT, "data", "live-investment-intel.json");
 const GDELT_DOC_API = "https://api.gdeltproject.org/api/v2/doc/doc";
+const WORLD_BANK_NEWS_API = "https://search.worldbank.org/api/v2/news";
+const ENABLE_GDELT = process.env.ENABLE_GDELT === "true";
 
 const QUERY = "investment";
 const RELEVANCE_RE = /investment|invests?|funding|financing|stake|acquisition|FDI|sovereign|data center|semiconductor|battery|infrastructure|private equity|portfolio|crypto|critical minerals|development finance/i;
+const OFFICIAL_FINANCE_RE = /approved|financing|loan|grant|investment|program|project|mobiliz|private capital|infrastructure|energy|digital|water|transport|finance|resilience|recovery/i;
 
 const COUNTRIES = [
   { id: "usa", name: "USA", lat: 38.9, lng: -77.04, aliases: ["United States", "U.S.", "US", "USA", "America"] },
@@ -39,8 +42,75 @@ const COUNTRIES = [
   { id: "brics", name: "BRICS", lat: 1.0, lng: 45.0, aliases: ["BRICS", "New Development Bank"] }
 ];
 
+const EXTRA_LOCATIONS = {
+  "Morocco": { lat: 34.02, lng: -6.84 },
+  "Kyrgyz Republic": { lat: 42.87, lng: 74.59 },
+  "Solomon Islands": { lat: -9.43, lng: 160.0 },
+  "Bangladesh": { lat: 23.81, lng: 90.41 },
+  "Uzbekistan": { lat: 41.31, lng: 69.24 },
+  "Kazakhstan": { lat: 51.16, lng: 71.47 },
+  "Pakistan": { lat: 30.4, lng: 69.3 },
+  "Sri Lanka": { lat: 6.93, lng: 79.86 },
+  "Philippines": { lat: 14.6, lng: 120.98 },
+  "Thailand": { lat: 13.75, lng: 100.5 },
+  "Malaysia": { lat: 3.14, lng: 101.69 },
+  "Cambodia": { lat: 11.56, lng: 104.93 },
+  "Laos": { lat: 17.97, lng: 102.6 },
+  "Iraq": { lat: 33.31, lng: 44.36 },
+  "Jordan": { lat: 31.95, lng: 35.93 },
+  "Ghana": { lat: 5.56, lng: -0.2 },
+  "Senegal": { lat: 14.69, lng: -17.45 },
+  "Tanzania": { lat: -6.16, lng: 35.75 },
+  "Ethiopia": { lat: 9.03, lng: 38.74 },
+  "Mozambique": { lat: -25.97, lng: 32.58 },
+  "Colombia": { lat: 4.71, lng: -74.07 },
+  "Peru": { lat: -12.05, lng: -77.04 },
+  "Argentina": { lat: -34.6, lng: -58.38 },
+  "Chile": { lat: -33.45, lng: -70.66 },
+  "Türkiye": { lat: 39.93, lng: 32.86 },
+  "Turkey": { lat: 39.93, lng: 32.86 },
+  "Ukraine": { lat: 50.45, lng: 30.52 },
+  "Poland": { lat: 52.23, lng: 21.01 }
+};
+
+const REGION_LOCATIONS = {
+  "Middle East and North Africa": { lat: 29.3, lng: 31.2 },
+  "Middle East, North Africa, Afghanistan, & Pakistan": { lat: 29.3, lng: 47.9 },
+  "Europe and Central Asia": { lat: 43.2, lng: 55.0 },
+  "East Asia and Pacific": { lat: 8.0, lng: 122.0 },
+  "South Asia": { lat: 22.0, lng: 78.0 },
+  "Africa": { lat: 1.5, lng: 20.0 },
+  "Latin America and Caribbean": { lat: -12.0, lng: -60.0 }
+};
+
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function fetchText(url, timeoutMs = 20000) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "Global-Investment-Intelligence-Globe/1.0 public-source-feed"
+      }
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status} for ${url}`);
+    return response.text();
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function fetchJson(url, timeoutMs = 20000) {
+  const body = await fetchText(url, timeoutMs);
+  try {
+    return JSON.parse(body);
+  } catch {
+    throw new Error(`Non-JSON response from ${url}: ${body.slice(0, 180)}`);
+  }
 }
 
 function hash(value) {
@@ -65,9 +135,49 @@ function countriesIn(text, sourceCountry) {
   return found.filter((c, idx, arr) => arr.findIndex(x => x.id === c.id) === idx);
 }
 
+function cdata(value) {
+  if (!value) return "";
+  if (typeof value === "string") return value;
+  return value["cdata!"] || value.cdata || "";
+}
+
+function stripHtml(value) {
+  return String(value || "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/â€™/g, "'")
+    .replace(/â€œ|â€/g, '"')
+    .replace(/â€“|â€”/g, "-")
+    .replace(/â€¦/g, "...")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function amountFrom(text) {
+  const match = String(text || "").match(/(?:US\$|USD|\$)\s?[\d,.]+(?:\s?(?:billion|million|trillion|bn|m))?/i);
+  return match ? match[0].replace(/\s+/g, " ") : "Amount not extracted";
+}
+
+function locationFor(country, region) {
+  const direct = COUNTRIES.find(c => c.name.toLowerCase() === String(country || "").toLowerCase());
+  if (direct) return { lat: direct.lat, lng: direct.lng };
+  if (EXTRA_LOCATIONS[country]) return EXTRA_LOCATIONS[country];
+  if (REGION_LOCATIONS[region]) return REGION_LOCATIONS[region];
+  return { lat: 20, lng: 0 };
+}
+
+function isOfficialFinanceDoc(doc) {
+  const title = stripHtml(cdata(doc.title));
+  const body = stripHtml(`${cdata(doc.descr)} ${doc.topic || ""} ${doc.keywd || ""} ${cdata(doc.content_1000)}`);
+  if (/global growth|global economic prospects|outlook|forecast/i.test(title)) return false;
+  if (amountFrom(body) !== "Amount not extracted") return true;
+  return /financ|investment|support|program|project|framework|private sector|capital|infrastructure/i.test(title);
+}
+
 function inferSegment(text) {
   if (/semiconductor|chip|fab|foundry|microchip|wafer|advanced packaging/i.test(text)) return "semiconductors";
-  if (/battery|ev|electric vehicle|gigafactory|lithium|nickel/i.test(text)) return "ev";
+  if (/battery|\bEV\b|electric vehicle|gigafactory|lithium|nickel/i.test(text)) return "ev";
   if (/cloud|data center|datacenter|ai infrastructure|digital infrastructure/i.test(text)) return "digital";
   if (/port|rail|railway|corridor|logistics|shipping|airport|road|infrastructure/i.test(text)) return "infrastructure";
   if (/sovereign|wealth fund|pif|adia|adq|qia|gic|temasek|mubadala/i.test(text)) return "sovereign";
@@ -150,6 +260,71 @@ function makeRecord(article, index) {
   };
 }
 
+function makeWorldBankRecord(doc, index) {
+  const title = stripHtml(cdata(doc.title)) || `World Bank live finance signal ${index + 1}`;
+  const description = stripHtml(cdata(doc.descr) || cdata(doc.content_1000) || cdata(doc.content));
+  const fullText = stripHtml(`${title} ${description} ${doc.topic || ""} ${doc.keywd || ""}`);
+  const country = doc.country || doc.count || doc.regionname || "Global";
+  const region = doc.regionname || doc.admreg || "Global";
+  const loc = locationFor(country, region);
+  const segment = inferSegment(fullText);
+  const url = String(doc.url || "").replace(/^http:/, "https:");
+  const amount = amountFrom(fullText);
+  const date = doc.lnchdt ? new Date(doc.lnchdt).toISOString().slice(0, 16).replace("T", " ") + " UTC" : parseGdeltDate();
+
+  return {
+    id: `wb-${hash(url || title)}`,
+    n: title,
+    lat: loc.lat,
+    lng: loc.lng,
+    u: 64000 + index * 850,
+    t: "development",
+    tier: index < 14 ? 0 : 1,
+    status: "Live Official Development Finance Signal",
+    investor: "World Bank Group",
+    recipient: country,
+    sector: (doc.topic || segment).split(",")[0] || "Development finance",
+    form: "Official financing / program approval",
+    amount,
+    category: `World Bank Group -> ${country}`,
+    date,
+    source: "World Bank Group",
+    sourceType: "World Bank public news API",
+    segment,
+    directness: "Official development finance",
+    assetClass: "Development finance",
+    bloc: region,
+    summary: description || "Official World Bank public news record. Open the source for full context before treating it as evidence.",
+    url,
+    globe: true,
+    live: true,
+    isLiveSignal: true,
+    dataLayer: "Official development finance feed",
+    sourceCountry: "World Bank Group"
+  };
+}
+
+async function fetchWorldBankRecords() {
+  const url = new URL(WORLD_BANK_NEWS_API);
+  url.searchParams.set("format", "json");
+  url.searchParams.set("rows", process.env.WORLD_BANK_ROWS || "20");
+  url.searchParams.set("fct", "displayconttype_exact,topic_exact,lang_exact,count_exact,countcode_exact,admreg_exact");
+  url.searchParams.set("src", "cq55");
+  url.searchParams.set("apilang", "en");
+  url.searchParams.set("lang_exact", "English");
+  url.searchParams.set("displayconttype_exact", "Press Release");
+  url.searchParams.set("os", "0");
+
+  const data = await fetchJson(url, 25000);
+  const docs = data && data.documents ? Object.values(data.documents) : [];
+  return docs
+    .filter(doc => doc && doc.url && cdata(doc.title))
+    .filter(doc => RELEVANCE_RE.test(`${cdata(doc.title)} ${cdata(doc.descr)} ${doc.topic || ""} ${doc.keywd || ""} ${cdata(doc.content_1000)}`))
+    .filter(doc => OFFICIAL_FINANCE_RE.test(`${cdata(doc.descr)} ${doc.topic || ""} ${doc.keywd || ""} ${cdata(doc.content_1000)}`))
+    .filter(isOfficialFinanceDoc)
+    .map(makeWorldBankRecord);
+}
+
 async function fetchGdelt() {
   const url = new URL(GDELT_DOC_API);
   url.searchParams.set("query", QUERY);
@@ -204,7 +379,9 @@ function buildRoutes(records) {
     .filter(r => r.investor !== r.recipient)
     .slice(0, 30)
     .map((r, i) => {
-      const from = COUNTRIES.find(c => c.name === r.investor) || { lat: 20, lng: 0 };
+      const from = r.investor === "World Bank Group"
+        ? { lat: 38.9, lng: -77.04 }
+        : COUNTRIES.find(c => c.name === r.investor) || { lat: 20, lng: 0 };
       return {
         from: { lat: from.lat, lng: from.lng },
         to: { lat: r.lat, lng: r.lng },
@@ -240,31 +417,57 @@ async function main() {
   const existing = await readExisting();
 
   try {
-    const data = await fetchGdelt();
-    const articles = Array.isArray(data.articles) ? data.articles : [];
+    const warnings = [];
+    const officialRecords = await fetchWorldBankRecords();
+    let gdeltRecords = [];
+
+    if (ENABLE_GDELT) {
+      try {
+        const data = await fetchGdelt();
+        const articles = Array.isArray(data.articles) ? data.articles : [];
+        const seenArticles = new Set();
+        gdeltRecords = articles
+          .filter(article => article && article.url && article.title)
+          .filter(article => RELEVANCE_RE.test(`${article.title || ""} ${article.domain || ""}`))
+          .filter(article => {
+            const key = String(article.url).replace(/[?#].*$/, "");
+            if (seenArticles.has(key)) return false;
+            seenArticles.add(key);
+            return true;
+          })
+          .map(makeRecord);
+      } catch (error) {
+        warnings.push(String(error && error.message ? error.message : error).slice(0, 240));
+      }
+    }
+
     const seen = new Set();
-    const records = articles
-      .filter(article => article && article.url && article.title)
-      .filter(article => RELEVANCE_RE.test(`${article.title || ""} ${article.domain || ""}`))
-      .filter(article => {
-        const key = String(article.url).replace(/[?#].*$/, "");
+    const records = officialRecords
+      .concat(gdeltRecords)
+      .filter(record => {
+        const key = String(record.url || record.id || record.n).replace(/[?#].*$/, "");
         if (seen.has(key)) return false;
         seen.add(key);
         return true;
       })
-      .map(makeRecord)
       .slice(0, 50);
+
+    if (!records.length) {
+      throw new Error(warnings[0] || "No public-source records returned by configured feeds");
+    }
 
     const payload = {
       meta: {
-        feed: "GDELT DOC 2.1 live public news signals",
+        feed: ENABLE_GDELT ? "Official development finance feed plus curated GDELT signals" : "Official development finance live feed",
         generatedAt: now,
         lastAttemptAt: now,
         status: "ok",
         recordCount: records.length,
-        refreshCadence: "GitHub Actions schedule: every 30 minutes",
-        sourcePolicy: "Live records are public news signals, not verified investment transactions. Open the source URL before using a signal as evidence.",
-        query: QUERY
+        refreshCadence: "GitHub Actions schedule: every 30 minutes plus push refresh",
+        sourcePolicy: "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
+        sources: ENABLE_GDELT ? ["World Bank public news API", "GDELT DOC 2.1"] : ["World Bank public news API"],
+        query: QUERY,
+        warnings
       },
       records,
       routes: buildRoutes(records),

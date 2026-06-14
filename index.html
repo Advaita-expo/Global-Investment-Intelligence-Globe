@@ -805,7 +805,7 @@ async function loadLiveFeed(){
     }else if(feedStatus==="pending" && fresh.length===0){
       setLiveStatus("loading","Live feed pipeline is configured and waiting for the first GitHub refresh.");
     }else{
-      setLiveStatus("ok","Live feed active: "+fresh.length+" latest public news signal"+(fresh.length===1?"":"s")+" loaded. Last refresh: "+generated+".");
+      setLiveStatus("ok","Live feed active: "+fresh.length+" latest official public-source signal"+(fresh.length===1?"":"s")+" loaded. Last refresh: "+generated+".");
     }
   }catch(error){
     setLiveStatus("error","Live feed unavailable in this browser session. Curated records remain visible; the scheduled GitHub feed will keep trying.");

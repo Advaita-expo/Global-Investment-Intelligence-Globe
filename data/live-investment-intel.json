@@ -1,13 +1,588 @@
 {
   "meta": {
-    "feed": "GDELT DOC 2.1 live public news signals",
-    "generatedAt": null,
-    "lastAttemptAt": null,
-    "status": "pending",
+    "feed": "Official development finance live feed",
+    "generatedAt": "2026-06-14T19:08:14.008Z",
+    "lastAttemptAt": "2026-06-14T19:08:14.008Z",
+    "status": "ok",
+    "recordCount": 13,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
-    "sourcePolicy": "Live records are public news signals, not verified investment transactions. Open the source URL before using a signal as evidence."
+    "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
+    "sources": [
+      "World Bank public news API"
+    ],
+    "query": "investment",
+    "warnings": []
   },
-  "records": [],
-  "routes": [],
-  "hotspots": []
+  "records": [
+    {
+      "id": "wb-6a676f97b66c",
+      "n": "Two New Programs to Advance Morocco's Digital Transformation and Climate Resilience",
+      "lat": 34.02,
+      "lng": -6.84,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Morocco",
+      "sector": "Digital-transformation",
+      "form": "Official financing / program approval",
+      "amount": "$650 million",
+      "category": "World Bank Group -> Morocco",
+      "date": "2026-06-12 18:00 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Middle East and North Africa",
+      "summary": "The World Bank's Board of Directors has approved two new programs totaling $650 million that will help accelerate progress toward Morocco's digital transformation goals while boosting the country’s financial resilience against climate, disaster, and cyber risks.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/12/two-new-programs-to-advance-morocco-s-digital-transformation-and-climate-resilience",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-3f60cc095381",
+      "n": "Kyrgyz Republic to Improve Water Security and Agricultural Productivity with World Bank Support",
+      "lat": 42.87,
+      "lng": 74.59,
+      "u": 64850,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Kyrgyz Republic",
+      "sector": "Agricultural Water Management",
+      "form": "Official financing / program approval",
+      "amount": "$95.75 million",
+      "category": "World Bank Group -> Kyrgyz Republic",
+      "date": "2026-06-12 17:10 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Europe and Central Asia",
+      "summary": "The World Bank’s Board of Executive Directors today approved $95.75 million in financing for the Kyrgyz Republic National Irrigation Investment Program.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/12/kyrgyz-republic-to-improve-water-security-and-agricultural-productivity-with-world-bank-support",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-40c57e3a9306",
+      "n": "World Bank Support to Help Solomon Islands Recover from Tropical Cyclone Maila",
+      "lat": -9.43,
+      "lng": 160,
+      "u": 65700,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Solomon Islands",
+      "sector": "Disaster-risk-management",
+      "form": "Official financing / program approval",
+      "amount": "US$5 million",
+      "category": "World Bank Group -> Solomon Islands",
+      "date": "2026-06-11 10:42 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "East Asia and Pacific",
+      "summary": "The World Bank has released US$5 million in financing to support Solomon Islands’ ongoing response and recovery following Tropical Cyclone Maila, which caused severe damage across Western, Choiseul, and Isabel provinces. The cyclone damaged homes, schools, health facilities, roads, and other critical infrastructure, leaving thousands of people facing disrupted livelihoods and reduced access to essential services.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/11/world-bank-support-to-help-solomon-islands-recover-from-tropical-cyclone-maila",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-f94d47a66946",
+      "n": "Kyrgyz Republic to Access Innovative Finance Through Energy Reform Program",
+      "lat": 42.87,
+      "lng": 74.59,
+      "u": 66550,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Kyrgyz Republic",
+      "sector": "Renewable Energy",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Kyrgyz Republic",
+      "date": "2026-06-09 16:01 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "renewables",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Europe and Central Asia",
+      "summary": "The World Bank Group today approved the Kyrgyz Republic Innovative Finance for Resilient and Sustainable Energy Transition Project (iFIRST).",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/09/kyrgyz-republic-to-access-innovative-finance-through-energy-reform-program",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-67b1ad275920",
+      "n": "World Bank Group: New Country Partnership Framework Promotes Private Sector-Led Growth in Argentina",
+      "lat": -34.6,
+      "lng": -58.38,
+      "u": 67400,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Argentina",
+      "sector": "infrastructure",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Argentina",
+      "date": "2026-06-09 11:16 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Latin America and Caribbean",
+      "summary": "The World Bank Group today announced its new Country Partnership Framework (CPF) for the Argentine Republic, covering the period 2026–2033, with the objective of supporting private sector-led growth, macro-fiscal stabilization, and sustainable job creation.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/09/world-bank-country-partnership-framework-argentina",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-067d6a2b1767",
+      "n": "Strong Policy Action Key to Protecting Cambodia's Jobs and Livelihoods Amid Shocks",
+      "lat": 11.56,
+      "lng": 104.93,
+      "u": 68250,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Cambodia",
+      "sector": "infrastructure",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Cambodia",
+      "date": "2026-06-09 09:52 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "East Asia and Pacific",
+      "summary": "Strong Policy Action Key to Protecting Cambodia's Jobs and Livelihoods Amid Shocks",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/09/strong-policy-action-key-to-protecting-cambodia-s-jobs-and-livelihoods-amid-shocks",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-87a4052dcf28",
+      "n": "World Bank Provides Additional Support to Help Marshall Islands Respond to Energy Crisis",
+      "lat": 8,
+      "lng": 122,
+      "u": 69100,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Marshall Islands,Pacific Islands",
+      "sector": "Energy-access",
+      "form": "Official financing / program approval",
+      "amount": "US$9 million",
+      "category": "World Bank Group -> Marshall Islands,Pacific Islands",
+      "date": "2026-06-09 08:35 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "East Asia and Pacific",
+      "summary": "The World Bank has approved an additional US$9 million in financing to help the Republic of the Marshall Islands respond to sharply higher energy costs that are placing pressure on families, businesses, public services, and the national budget.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/04/world-bank-provides-additional-support-to-help-marshall-islands-respond-to-energy-crisis",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-554b1052a7f0",
+      "n": "New US$900 million World Bank Financing to Improve Iraq’s Road Connectivity and Support Job Creation",
+      "lat": 33.31,
+      "lng": 44.36,
+      "u": 69950,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Iraq",
+      "sector": "Transport",
+      "form": "Official financing / program approval",
+      "amount": "US$900 million",
+      "category": "World Bank Group -> Iraq",
+      "date": "2026-06-05 09:17 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Middle East and North Africa",
+      "summary": "The Iraq Transport Economic Corridors (ITREC) project will support strategic investments in key road corridors that are critical to domestic mobility, regional integration, and long-term economic growth.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/05/new-us-900-million-world-bank-financing-to-improve-iraq-s-road-connectivity-and-support-job-creation",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-6998812fa218",
+      "n": "World Bank Group Supports Resilient Municipal Infrastructure to Modernize Cities in Türkiye",
+      "lat": 39.93,
+      "lng": 32.86,
+      "u": 70800,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Turkey",
+      "sector": "Urban Development",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Turkey",
+      "date": "2026-06-05 03:35 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Europe and Central Asia",
+      "summary": "With World Bank Group support, Türkiye will modernize urban infrastructure and services in the fast-growing cities of Antalya and Konya.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/05/world-bank-group-supports-resilient-municipal-infrastructure-to-modernize-cities-in-turkiye",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-0abde6d5bb59",
+      "n": "Moldova to Advance Reforms for Growth, Jobs, Resilience, and EU Integration with World Bank Support",
+      "lat": 43.2,
+      "lng": 55,
+      "u": 71650,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Moldova",
+      "sector": "infrastructure",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Moldova",
+      "date": "2026-06-04 18:02 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Europe and Central Asia",
+      "summary": "The World Bank approved the Growth and Resilience Development Policy Loan (DPL) for the Republic of Moldova, aimed at strengthening competitiveness, job creation, efficiency and transparency of markets, as well as economic integration with the European Union.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/04/moldova-growth-and-resilience-development-policy-finance-operation",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-6e2ec187dc2e",
+      "n": "Yemen: World Bank Group Launches New Country Partnership Framework and Projects to Support Better Livelihoods and More Jobs Amid Fragility",
+      "lat": 29.3,
+      "lng": 31.2,
+      "u": 72500,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Yemen",
+      "sector": "Fragility-conflict-and-violence",
+      "form": "Official financing / program approval",
+      "amount": "US$285 million",
+      "category": "World Bank Group -> Yemen",
+      "date": "2026-06-04 09:00 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Middle East and North Africa",
+      "summary": "The World Bank Group's Board of Executive Directors today approved a new Country Partnership Framework (CPF) for the Republic of Yemen for fiscal years 2026-2030, alongside four new operations totaling US$285 million, marking a new phase in the World Bank Group's long-standing commitment to the people of Yemen.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/04/yemen-world-bank-group-launches-new-country-partnership-framework-and-projects-to-support-better-livelihoods-and-more-jo",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-69c1c0588a0b",
+      "n": "World Bank Group Reaffirms Partnership with Tajikistan to Unlock Private Sector-Led Growth that Generates Jobs",
+      "lat": 43.2,
+      "lng": 55,
+      "u": 73350,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Tajikistan",
+      "sector": "infrastructure",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Tajikistan",
+      "date": "2026-06-03 14:37 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Europe and Central Asia",
+      "summary": "The World Bank Group’s Board of Directors today discussed a new Country Partnership Framework (CPF) for the Republic of Tajikistan for fiscal years 2026–2032.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/02/world-bank-group-reaffirms-partnership-with-tajikistan-to-unlock-private-sector-led-growth-that-generates-jobs",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-178ddded8b69",
+      "n": "Ghana Launches AgriConnect Compact to Strengthen Food Security, Create Jobs, and Mobilize Investment",
+      "lat": 5.56,
+      "lng": -0.2,
+      "u": 74200,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Ghana",
+      "sector": "Agribusiness",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Ghana",
+      "date": "2026-06-03 09:56 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Africa",
+      "summary": "The Government of Ghana, with support from the World Bank Group and development partners, today launched its AgriConnect Compact, a national framework to strengthen food security, create jobs, reduce food imports, and mobilize investment across priority agricultural value chains.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/03/ghana-launches-agriconnect-compact-to-strengthen-food-security-create-jobs-and-mobilize-investment",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    }
+  ],
+  "routes": [
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 34.02,
+        "lng": -6.84
+      },
+      "label": "World Bank Group -> Morocco live signal",
+      "intensity": 0.78,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 42.87,
+        "lng": 74.59
+      },
+      "label": "World Bank Group -> Kyrgyz Republic live signal",
+      "intensity": 0.77,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": -9.43,
+        "lng": 160
+      },
+      "label": "World Bank Group -> Solomon Islands live signal",
+      "intensity": 0.76,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 42.87,
+        "lng": 74.59
+      },
+      "label": "World Bank Group -> Kyrgyz Republic live signal",
+      "intensity": 0.75,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": -34.6,
+        "lng": -58.38
+      },
+      "label": "World Bank Group -> Argentina live signal",
+      "intensity": 0.74,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 11.56,
+        "lng": 104.93
+      },
+      "label": "World Bank Group -> Cambodia live signal",
+      "intensity": 0.73,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 8,
+        "lng": 122
+      },
+      "label": "World Bank Group -> Marshall Islands,Pacific Islands live signal",
+      "intensity": 0.72,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 33.31,
+        "lng": 44.36
+      },
+      "label": "World Bank Group -> Iraq live signal",
+      "intensity": 0.71,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 39.93,
+        "lng": 32.86
+      },
+      "label": "World Bank Group -> Turkey live signal",
+      "intensity": 0.7000000000000001,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 43.2,
+        "lng": 55
+      },
+      "label": "World Bank Group -> Moldova live signal",
+      "intensity": 0.6900000000000001,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 29.3,
+        "lng": 31.2
+      },
+      "label": "World Bank Group -> Yemen live signal",
+      "intensity": 0.68,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 43.2,
+        "lng": 55
+      },
+      "label": "World Bank Group -> Tajikistan live signal",
+      "intensity": 0.67,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 5.56,
+        "lng": -0.2
+      },
+      "label": "World Bank Group -> Ghana live signal",
+      "intensity": 0.66,
+      "isLiveSignal": true
+    }
+  ],
+  "hotspots": [
+    {
+      "n": "Kyrgyz Republic live investment news cluster",
+      "lat": 42.87,
+      "lng": 74.59,
+      "strength": 0.61,
+      "isLiveSignal": true
+    }
+  ]
 }
