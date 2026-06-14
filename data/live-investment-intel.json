@@ -2,10 +2,11 @@
   "meta": {
     "feed": "GDELT DOC 2.1 live public news signals",
     "generatedAt": null,
-    "lastAttemptAt": null,
-    "status": "pending",
+    "lastAttemptAt": "2026-06-14T18:58:44.121Z",
+    "status": "error",
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
-    "sourcePolicy": "Live records are public news signals, not verified investment transactions. Open the source URL before using a signal as evidence."
+    "sourcePolicy": "Live feed refresh failed; keeping the previous public-source feed. No records were invented.",
+    "error": "GDELT rate limit: Please limit requests to one every 5 seconds or contact kalev.leetaru5@gmail.com for larger queries.\n\n"
   },
   "records": [],
   "routes": [],
