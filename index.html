@@ -33,8 +33,15 @@
   .summary-grid { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:14px 0; }
   .summary-card,.ledger,.archive { background:rgba(10,16,35,.86);border:.5px solid rgba(255,255,255,.12);border-radius:12px;box-shadow:0 18px 60px rgba(0,0,0,.28); }
   .summary-card { padding:13px 14px; }
+  .summary-card.live-card { border-color:rgba(103,232,249,.32);background:linear-gradient(135deg,rgba(14,165,233,.12),rgba(10,16,35,.88)); }
   .summary-label { color:#7081a8;font-size:10px;text-transform:uppercase;letter-spacing:.16em; }
   .summary-value { color:#fff;font-size:22px;font-weight:650;margin-top:4px; }
+  .live-status { display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:12px 0 8px;padding:10px 12px;border:.5px solid rgba(103,232,249,.22);border-radius:10px;background:rgba(8,18,38,.76);color:#9fb2dd;font-size:12px;line-height:1.45; }
+  .live-dot { width:8px;height:8px;border-radius:999px;background:#64748b;box-shadow:0 0 0 rgba(100,116,139,0); }
+  .live-dot.ok { background:#22c55e;box-shadow:0 0 16px rgba(34,197,94,.7); }
+  .live-dot.error { background:#f97316;box-shadow:0 0 16px rgba(249,115,22,.65); }
+  .live-dot.loading { background:#38bdf8;box-shadow:0 0 16px rgba(56,189,248,.65);animation:livePulse 1.3s ease-in-out infinite; }
+  @keyframes livePulse { 0%,100%{opacity:.45} 50%{opacity:1} }
   .filter-bar { display:flex;flex-wrap:wrap;gap:8px;margin:16px 0; }
   .filter-btn { background:rgba(255,255,255,.04);border:.5px solid rgba(255,255,255,.12);color:#aebce0;border-radius:8px;padding:8px 12px;font-size:12px;cursor:pointer;transition:.18s; }
   .filter-btn.active,.filter-btn:hover { background:rgba(96,165,250,.18);border-color:rgba(125,211,252,.45);color:#fff; }
@@ -56,6 +63,8 @@
   .pill.semiconductors { color:#fecaca;background:rgba(239,68,68,.12);border-color:rgba(239,68,68,.26); }
   .pill.energy { color:#fed7aa;background:rgba(251,146,60,.12);border-color:rgba(251,146,60,.24); }
   .pill.crypto { color:#ddd6fe;background:rgba(139,92,246,.14);border-color:rgba(139,92,246,.30); }
+  .pill.live { color:#cffafe;background:rgba(14,165,233,.16);border-color:rgba(103,232,249,.34);box-shadow:0 0 18px rgba(14,165,233,.10); }
+  .pill.signal { color:#fde68a;background:rgba(250,204,21,.12);border-color:rgba(250,204,21,.28); }
   .pill.alternatives { color:#f5d0fe;background:rgba(217,70,239,.12);border-color:rgba(217,70,239,.26); }
   .pill.healthcare { color:#ccfbf1;background:rgba(20,184,166,.12);border-color:rgba(20,184,166,.24); }
   .pill.renewables { color:#dcfce7;background:rgba(22,163,74,.12);border-color:rgba(22,163,74,.24); }
@@ -138,8 +147,14 @@
     </div>
   </div>
 
+  <div class="live-status" id="live-status">
+    <span class="live-dot loading" id="live-dot"></span>
+    <span id="live-status-text">Checking live public-source investment signals...</span>
+  </div>
+
   <div class="summary-grid">
     <div class="summary-card"><div class="summary-label">Total flows</div><div class="summary-value" id="m-total">0</div></div>
+    <div class="summary-card live-card"><div class="summary-label">Live signals</div><div class="summary-value" id="m-live">0</div></div>
     <div class="summary-card"><div class="summary-label">Direct FDI flows</div><div class="summary-value" id="m-crime">0</div></div>
     <div class="summary-card"><div class="summary-label">Indirect capital</div><div class="summary-value" id="m-maritime">0</div></div>
     <div class="summary-card"><div class="summary-label">Stock / portfolio</div><div class="summary-value" id="m-stocks">0</div></div>
@@ -153,6 +168,7 @@
 
   <div class="filter-bar" aria-label="Record filters">
     <button class="filter-btn active" data-filter="all">All flows</button>
+    <button class="filter-btn" data-filter="live">Live signals</button>
     <button class="filter-btn" data-filter="semiconductors">Semiconductors</button>
     <button class="filter-btn" data-filter="ev">EV / batteries</button>
     <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
@@ -179,7 +195,7 @@
 
   <div class="archive">
     <h2>Last 10 Years Investment Flow Archive</h2>
-    <div class="ledger-note">2016-2026 public records loaded in this prototype. This is a curated, verifiable seed set, not a real-time claim of exhaustive coverage.</div>
+    <div class="ledger-note">2016-2026 curated public records plus live public news signals. Live signals are automatically classified and must be source-checked before being treated as verified transactions.</div>
     <div class="archive-list" id="archive-list"></div>
   </div>
 </section>
@@ -199,6 +215,8 @@ const ALL_RECORDS = CITIES.concat(EXTRA_RECORDS.filter(r=>!r.globe));
 const DATE_LABELS = {};
 const TARGET_REGIONS = [];
 function displayDate(record){ return DATE_LABELS[record.n] || record.date || "Public source"; }
+const LIVE_FEED_URL = "data/live-investment-intel.json";
+let LIVE_FEED_META = null;
 
 const INVESTMENT_RECORDS = [
   {n:"Micron Gujarat Semiconductor ATMP Facility",lat:22.99,lng:72.38,u:76000,t:"direct",tier:0,status:"Direct FDI",investor:"USA",recipient:"India",sector:"Semiconductors",form:"Greenfield manufacturing facility",amount:"USD 825M company investment; USD 2.75B total project",category:"USA -> India",date:"2023-06-22",source:"Micron Technology",sourceType:"Company announcement",segment:"semiconductors",directness:"Direct",summary:"Micron announced a semiconductor assembly and test facility in Gujarat, India, combining company capex with central and state fiscal support.",url:"https://investors.micron.com/news-releases/news-release-details/micron-announces-new-semiconductor-assembly-and-test-facility",globe:true,live:true},
@@ -557,10 +575,14 @@ function draw(){
   for(const {c,p} of pts){
     const fac=0.55+p.z*0.45;
     const col=COLORS[c.t];
-    const baseR=(2.3+Math.log(c.u/5000)*1.5)*fac;
-    const pulse=(tNow*0.8 + (c.u%100)/100)%1;
+    const baseR=((2.3+Math.log(c.u/5000)*1.5)+(c.isLiveSignal?1.1:0))*fac;
+    const pulse=(tNow*(c.isLiveSignal?1.35:0.8) + (c.u%100)/100)%1;
+    if(c.isLiveSignal){
+      ctx.beginPath(); ctx.arc(p.x,p.y,baseR+pulse*baseR*3.2,0,Math.PI*2);
+      ctx.strokeStyle=rgba([103,232,249],(1-pulse)*0.8*fac); ctx.lineWidth=1.6; ctx.stroke();
+    }
     ctx.beginPath(); ctx.arc(p.x,p.y,baseR+pulse*baseR*2.2,0,Math.PI*2);
-    ctx.strokeStyle=rgba(col,(1-pulse)*0.5*fac); ctx.lineWidth=1; ctx.stroke();
+    ctx.strokeStyle=rgba(col,(1-pulse)*(c.isLiveSignal?0.72:0.5)*fac); ctx.lineWidth=c.isLiveSignal?1.4:1; ctx.stroke();
     const g=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,baseR*1.6);
     g.addColorStop(0,rgba(col,0.9*fac)); g.addColorStop(1,rgba(col,0));
     ctx.beginPath(); ctx.arc(p.x,p.y,baseR*1.6,0,Math.PI*2); ctx.fillStyle=g; ctx.fill();
@@ -619,13 +641,17 @@ function focusRegion(id){
 countrySelect.addEventListener("change",e=>focusRegion(e.target.value));
 
 function count(type){return CITIES.filter(c=>c.t===type).length;}
-document.getElementById("s-confirmed").textContent=count("direct");
-document.getElementById("s-investigation").textContent=count("portfolio");
-document.getElementById("s-warning").textContent=count("development");
-document.getElementById("s-court").textContent=count("jointventure");
-document.getElementById("s-strategic").textContent=count("acquisition");
-document.getElementById("s-resolved").textContent=count("restricted");
-document.getElementById("s-total").textContent=ALL_RECORDS.length+" public investment records across Africa, Australia/APAC, Gulf, BRICS, stocks, alternatives, crypto, FDI and development finance";
+function refreshTopCounts(){
+  document.getElementById("s-confirmed").textContent=count("direct");
+  document.getElementById("s-investigation").textContent=count("portfolio");
+  document.getElementById("s-warning").textContent=count("development");
+  document.getElementById("s-court").textContent=count("jointventure");
+  document.getElementById("s-strategic").textContent=count("acquisition");
+  document.getElementById("s-resolved").textContent=count("restricted");
+  const liveCount=ALL_RECORDS.filter(r=>r.isLiveSignal).length;
+  document.getElementById("s-total").textContent=ALL_RECORDS.length+" public investment records, including "+liveCount+" live public news signal"+(liveCount===1?"":"s");
+}
+refreshTopCounts();
 const countEl=document.getElementById("s-count");
 
 let activeRecordFilter="all";
@@ -633,8 +659,12 @@ function yearOf(record){
   const m=String(displayDate(record)+" "+(record.date||"")).match(/20\d{2}|19\d{2}/);
   return m ? Number(m[0]) : null;
 }
+function timeOf(record){
+  const parsed=Date.parse(String(record.date||"").replace(" UTC","Z"));
+  return Number.isNaN(parsed) ? 0 : parsed;
+}
 function recordHaystack(record){
-  return [record.n,record.investor,record.recipient,record.sector,record.form,record.amount,record.category,record.status,record.source,record.sourceType,record.segment,record.directness,record.assetClass,record.bloc,record.summary].join(" ");
+  return [record.n,record.investor,record.recipient,record.sector,record.form,record.amount,record.category,record.status,record.source,record.sourceType,record.segment,record.directness,record.assetClass,record.bloc,record.summary,record.dataLayer,record.sourceCountry].join(" ");
 }
 function recordSegment(record){
   if(record.segment) return record.segment;
@@ -653,6 +683,7 @@ function recordMatches(record,filter){
   const seg=recordSegment(record);
   const h=recordHaystack(record);
   if(filter==="all") return true;
+  if(filter==="live") return Boolean(record.isLiveSignal);
   if(filter==="sovereign") return record.t==="portfolio" || /sovereign|fund|portfolio/i.test(record.form+" "+record.status+" "+record.sourceType);
   if(filter==="logistics") return seg==="logistics" || /logistics|ports|terminals|transportation/i.test(record.sector+" "+record.form+" "+record.summary);
   if(filter==="stocks") return record.t==="portfolio" || /stock|portfolio|minority stake|equity stake|shareholding|asset management|mutual fund|public market/i.test(h);
@@ -666,12 +697,15 @@ function recordMatches(record,filter){
   return seg===filter;
 }
 function sourcePill(record){
+  if(record.isLiveSignal) return "live";
   const seg=recordSegment(record);
   return seg;
 }
 function renderDashboard(){
   const decade=ALL_RECORDS.filter(r=>{const y=yearOf(r);return y && y>=2016 && y<=2026;});
+  const liveRows=ALL_RECORDS.filter(r=>r.isLiveSignal);
   document.getElementById("m-total").textContent=ALL_RECORDS.length;
+  document.getElementById("m-live").textContent=liveRows.length;
   document.getElementById("m-crime").textContent=ALL_RECORDS.filter(r=>r.t==="direct").length;
   document.getElementById("m-maritime").textContent=ALL_RECORDS.filter(r=>r.t!=="direct").length;
   document.getElementById("m-stocks").textContent=ALL_RECORDS.filter(r=>recordMatches(r,"stocks")).length;
@@ -682,28 +716,100 @@ function renderDashboard(){
   document.getElementById("m-gulf").textContent=ALL_RECORDS.filter(r=>recordMatches(r,"gulf")).length;
   document.getElementById("m-brics").textContent=ALL_RECORDS.filter(r=>recordMatches(r,"brics")).length;
 
-  const rows=ALL_RECORDS.filter(r=>recordMatches(r,activeRecordFilter)).sort((a,b)=>(yearOf(b)||0)-(yearOf(a)||0));
-  document.getElementById("ledger-note").textContent="Showing "+rows.length+" public-source investment flow"+(rows.length===1?"":"s")+" for filter: "+activeRecordFilter;
+  const rows=ALL_RECORDS.filter(r=>recordMatches(r,activeRecordFilter)).sort((a,b)=>(timeOf(b)||yearOf(b)||0)-(timeOf(a)||yearOf(a)||0));
+  document.getElementById("ledger-note").textContent="Showing "+rows.length+" public-source investment flow"+(rows.length===1?"":"s")+" for filter: "+activeRecordFilter+(LIVE_FEED_META && LIVE_FEED_META.generatedAt ? " | Live feed: "+new Date(LIVE_FEED_META.generatedAt).toLocaleString() : "");
   const grid=document.getElementById("record-grid");
   if(!rows.length){
     grid.innerHTML='<div class="empty-state">No records match this filter yet.</div>';
   } else {
     grid.innerHTML=rows.map((r,i)=>'<article class="record-card">'
-      +'<div class="record-meta"><span class="pill">#'+String(i+1).padStart(2,"0")+'</span><span class="pill '+sourcePill(r)+'">'+esc(recordSegment(r))+'</span><span class="pill">'+esc(r.sourceType||"Public source")+'</span><span class="pill">'+esc(displayDate(r))+'</span></div>'
+      +'<div class="record-meta"><span class="pill">#'+String(i+1).padStart(2,"0")+'</span>'+(r.isLiveSignal?'<span class="pill live">Live signal</span><span class="pill signal">Auto-classified</span>':'')+'<span class="pill '+sourcePill(r)+'">'+esc(recordSegment(r))+'</span><span class="pill">'+esc(r.sourceType||"Public source")+'</span><span class="pill">'+esc(displayDate(r))+'</span></div>'
       +'<h3>'+esc(r.n)+'</h3>'
       +'<p>'+esc(r.summary)+'</p>'
       +'<div class="record-meta"><span class="pill">'+esc(r.investor)+' -> '+esc(r.recipient)+'</span><span class="pill">'+esc(r.sector)+'</span><span class="pill">'+esc(r.status)+'</span><span class="pill">'+esc(r.amount)+'</span></div>'
       +'<div class="record-meta"><span class="pill">'+esc(r.form)+'</span><span class="pill">'+esc(r.directness)+'</span>'+(r.assetClass?'<span class="pill">'+esc(r.assetClass)+'</span>':'')+(r.bloc?'<span class="pill">'+esc(r.bloc)+'</span>':'')+'<span class="pill">'+esc(r.source)+'</span></div>'
-      +'<div class="read-row"><span class="ledger-note">Form: '+esc(r.form)+'</span><a class="read-link" href="'+esc(r.url)+'" target="_blank" rel="noreferrer">Read source</a></div>'
+      +'<div class="read-row"><span class="ledger-note">'+(r.isLiveSignal?'Signal policy: source-check before use':'Form: '+esc(r.form))+'</span><a class="read-link" href="'+esc(r.url)+'" target="_blank" rel="noreferrer">Read source</a></div>'
       +'</article>').join("");
   }
 
   const archive=document.getElementById("archive-list");
-  archive.innerHTML=decade.sort((a,b)=>(yearOf(b)||0)-(yearOf(a)||0)).map(r=>'<div class="archive-item">'
+  archive.innerHTML=decade.sort((a,b)=>(timeOf(b)||yearOf(b)||0)-(timeOf(a)||yearOf(a)||0)).map(r=>'<div class="archive-item">'
     +'<div class="archive-year">'+esc(yearOf(r)||"Public")+'</div>'
     +'<div><div class="archive-title">'+esc(r.investor)+' -> '+esc(r.recipient)+' - '+esc(r.sector)+'</div><div class="ledger-note">'+esc(displayDate(r))+' | '+esc(r.amount)+' | '+esc(r.status)+' | '+esc(r.source)+'</div></div>'
     +'<a class="read-link" href="'+esc(r.url)+'" target="_blank" rel="noreferrer">Read more</a>'
     +'</div>').join("");
+}
+
+function setLiveStatus(state,message){
+  const dot=document.getElementById("live-dot");
+  const text=document.getElementById("live-status-text");
+  dot.className="live-dot "+state;
+  text.textContent=message;
+}
+function safeType(type){
+  return COLORS[type] ? type : "portfolio";
+}
+function normalizeLiveRecord(record,index){
+  return {
+    ...record,
+    n:record.n||record.title||("Live investment signal "+(index+1)),
+    lat:Number(record.lat)||20,
+    lng:Number(record.lng)||0,
+    u:Number(record.u)||52000,
+    t:safeType(record.t||"portfolio"),
+    tier:Number.isFinite(Number(record.tier))?Number(record.tier):0,
+    status:record.status||"Live Public News Signal",
+    investor:record.investor||"Global",
+    recipient:record.recipient||"Global",
+    sector:record.sector||"Investment intelligence",
+    form:record.form||"Live public news signal",
+    amount:record.amount||"Amount not extracted",
+    category:record.category||"Live signal",
+    date:record.date||"Live source",
+    source:record.source||record.domain||"Public source",
+    sourceType:record.sourceType||"Live public news",
+    segment:record.segment||"infrastructure",
+    directness:record.directness||"Inferred signal",
+    summary:record.summary||"Live public-source signal. Source-check required before use.",
+    url:record.url||"#",
+    globe:record.globe!==false,
+    live:true,
+    isLiveSignal:true
+  };
+}
+async function loadLiveFeed(){
+  setLiveStatus("loading","Loading live public-source investment signals...");
+  try{
+    const response=await fetch(LIVE_FEED_URL+"?v="+Date.now(),{cache:"no-store"});
+    if(!response.ok) throw new Error("HTTP "+response.status);
+    const feed=await response.json();
+    LIVE_FEED_META=feed.meta||{};
+    const incoming=(Array.isArray(feed.records)?feed.records:[]).map(normalizeLiveRecord);
+    const known=new Set(ALL_RECORDS.map(r=>String(r.url||r.id||r.n)));
+    const fresh=incoming.filter(r=>{
+      const key=String(r.url||r.id||r.n);
+      if(known.has(key)) return false;
+      known.add(key);
+      return true;
+    });
+    ALL_RECORDS.push(...fresh);
+    CITIES.push(...fresh.filter(r=>r.globe));
+    if(Array.isArray(feed.routes)) ROUTES.push(...feed.routes.filter(r=>r && r.from && r.to));
+    if(Array.isArray(feed.hotspots)) HOTSPOTS.push(...feed.hotspots.filter(h=>h && Number.isFinite(Number(h.lat)) && Number.isFinite(Number(h.lng))));
+    refreshTopCounts();
+    renderDashboard();
+    const generated=LIVE_FEED_META.generatedAt ? new Date(LIVE_FEED_META.generatedAt).toLocaleString() : "pending";
+    const feedStatus=LIVE_FEED_META.status||"pending";
+    if(feedStatus==="error"){
+      setLiveStatus("error","Live feed refresh had an error; showing previous feed if available. No records are invented.");
+    }else if(feedStatus==="pending" && fresh.length===0){
+      setLiveStatus("loading","Live feed pipeline is configured and waiting for the first GitHub refresh.");
+    }else{
+      setLiveStatus("ok","Live feed active: "+fresh.length+" latest public news signal"+(fresh.length===1?"":"s")+" loaded. Last refresh: "+generated+".");
+    }
+  }catch(error){
+    setLiveStatus("error","Live feed unavailable in this browser session. Curated records remain visible; the scheduled GitHub feed will keep trying.");
+  }
 }
 document.querySelectorAll(".filter-btn").forEach(btn=>{
   btn.addEventListener("click",()=>{
@@ -713,6 +819,7 @@ document.querySelectorAll(".filter-btn").forEach(btn=>{
   });
 });
 renderDashboard();
+loadLiveFeed();
 
 canvas.addEventListener("mousedown",e=>{dragging=true;lastMx=e.clientX;lastMy=e.clientY;setAutoSpin(false);});
 window.addEventListener("mouseup",()=>dragging=false);
@@ -738,7 +845,7 @@ window.addEventListener("mousemove",e=>{
   if(hit){
     tip.style.display="block";
     tip.style.left=(mx+14)+"px"; tip.style.top=(my-10)+"px";
-    tip.innerHTML="<b>"+esc(hit.n)+"</b><br><span style='color:#8aa0cc;font-size:11px'>"+esc(hit.investor)+" -> "+esc(hit.recipient)+" &middot; "+esc(hit.sector)+"</span><br><span style='color:#9fb2dd;font-size:11px'>"+esc(hit.status)+" &middot; "+esc(hit.form)+"</span><br><span style='color:#a7f3d0;font-size:11px'>"+esc(hit.assetClass||hit.directness)+" &middot; "+esc(hit.bloc||'Global')+"</span><br><span style='color:#888;font-size:11px'>"+esc(displayDate(hit))+" &middot; "+esc(hit.amount)+" &middot; "+esc(hit.source)+"</span><br><span style='color:#c8d2ea;font-size:11px'>"+esc(hit.summary)+"</span>";
+    tip.innerHTML="<b>"+esc(hit.n)+"</b>"+(hit.isLiveSignal?"<br><span style='color:#67e8f9;font-size:11px'>Live public news signal - auto-classified, source-check required</span>":"")+"<br><span style='color:#8aa0cc;font-size:11px'>"+esc(hit.investor)+" -> "+esc(hit.recipient)+" &middot; "+esc(hit.sector)+"</span><br><span style='color:#9fb2dd;font-size:11px'>"+esc(hit.status)+" &middot; "+esc(hit.form)+"</span><br><span style='color:#a7f3d0;font-size:11px'>"+esc(hit.assetClass||hit.directness)+" &middot; "+esc(hit.bloc||'Global')+"</span><br><span style='color:#888;font-size:11px'>"+esc(displayDate(hit))+" &middot; "+esc(hit.amount)+" &middot; "+esc(hit.source)+"</span><br><span style='color:#c8d2ea;font-size:11px'>"+esc(hit.summary)+"</span>";
   } else tip.style.display="none";
 });
 canvas.addEventListener("wheel",e=>{

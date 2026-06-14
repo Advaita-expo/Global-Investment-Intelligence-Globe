@@ -2,6 +2,12 @@
 
 Standalone public-source intelligence globe for monitoring direct and indirect cross-border investment flows.
 
+Live demo:
+
+```text
+https://advaita-expo.github.io/Global-Investment-Intelligence-Globe/
+```
+
 ## Run locally
 
 ```powershell
@@ -15,9 +21,19 @@ Open:
 http://localhost:5176/
 ```
 
+## Live data layer
+
+The project now includes a near-real-time public news signal layer:
+
+- `scripts/fetch-live-data.js` pulls public article records from the GDELT DOC 2.1 API.
+- `data/live-investment-intel.json` stores the latest generated feed for the static frontend.
+- `.github/workflows/live-data.yml` refreshes the feed on normal pushes, then every 30 minutes, and republishes the static site to the `gh-pages` branch.
+
+Live signals are not treated as verified investment transactions. They are labelled as GDELT live public news signals and should be opened at the source URL before being used as evidence.
+
 ## Source policy
 
-The seed data uses public links only: company announcements, government releases, sovereign investor statements, development finance releases, and official project portals. The records are curated for product demonstration and are not a real-time or exhaustive database.
+The seed data uses public links only: company announcements, government releases, sovereign investor statements, development finance releases, and official project portals. The curated records are not an exhaustive database. The live layer adds public news signals that are classified automatically and kept separate from curated verified records.
 
 ## Intelligence layers
 

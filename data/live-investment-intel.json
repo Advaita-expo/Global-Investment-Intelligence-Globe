@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "feed": "GDELT DOC 2.1 live public news signals",
+    "generatedAt": null,
+    "lastAttemptAt": null,
+    "status": "pending",
+    "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
+    "sourcePolicy": "Live records are public news signals, not verified investment transactions. Open the source URL before using a signal as evidence."
+  },
+  "records": [],
+  "routes": [],
+  "hotspots": []
+}
