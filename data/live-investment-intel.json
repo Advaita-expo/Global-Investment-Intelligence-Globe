@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-15T00:05:16.415Z",
-    "lastAttemptAt": "2026-06-15T00:05:16.415Z",
+    "generatedAt": "2026-06-15T05:33:31.952Z",
+    "lastAttemptAt": "2026-06-15T05:33:31.952Z",
     "status": "ok",
-    "recordCount": 13,
+    "recordCount": 12,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -373,36 +373,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-178ddded8b69",
-      "n": "Ghana Launches AgriConnect Compact to Strengthen Food Security, Create Jobs, and Mobilize Investment",
-      "lat": 5.56,
-      "lng": -0.2,
-      "u": 74200,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Ghana",
-      "sector": "Agribusiness",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Ghana",
-      "date": "2026-06-03 09:56 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Africa",
-      "summary": "The Government of Ghana, with support from the World Bank Group and development partners, today launched its AgriConnect Compact, a national framework to strengthen food security, create jobs, reduce food imports, and mobilize investment across priority agricultural value chains.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/03/ghana-launches-agriconnect-compact-to-strengthen-food-security-create-jobs-and-mobilize-investment",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -560,19 +530,6 @@
       },
       "label": "World Bank Group -> Tajikistan live signal",
       "intensity": 0.67,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 5.56,
-        "lng": -0.2
-      },
-      "label": "World Bank Group -> Ghana live signal",
-      "intensity": 0.66,
       "isLiveSignal": true
     }
   ],
