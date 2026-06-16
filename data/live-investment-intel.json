@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-16T19:26:16.984Z",
-    "lastAttemptAt": "2026-06-16T19:26:16.984Z",
+    "generatedAt": "2026-06-16T21:58:57.152Z",
+    "lastAttemptAt": "2026-06-16T21:58:57.152Z",
     "status": "ok",
     "recordCount": 12,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -15,11 +15,41 @@
   },
   "records": [
     {
+      "id": "wb-ceaf3a010457",
+      "n": "World Bank Group Supports Argentina's Economic Reforms with Innovative Package to Mobilize $2 Billion in Commercial Financing",
+      "lat": -34.6,
+      "lng": -58.38,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Argentina",
+      "sector": "infrastructure",
+      "form": "Official financing / program approval",
+      "amount": "$2 Billion",
+      "category": "World Bank Group -> Argentina",
+      "date": "2026-06-16 07:55 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Global",
+      "summary": "Guarantees will support the national government’s efforts to create jobs, boost investment, and strengthen economic stability",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/16/world-bank-group-supports-argentina-s-economic-reforms-with-innovative-package-to-mobilize-2-billion-in-commercial-finan",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-3a6226570dfc",
       "n": "Second Emerging Markets CLO Advances World Bank Group Push to Mobilize Private Capital for Jobs",
       "lat": 20,
       "lng": 0,
-      "u": 64000,
+      "u": 64850,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -49,7 +79,7 @@
       "n": "World Bank Approves US$1.12 Billion Program to Modernize the Douala–Bangui Economic Corridor",
       "lat": 1.5,
       "lng": 20,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -79,7 +109,7 @@
       "n": "Kyrgyz Republic to Improve Water Security and Agricultural Productivity with World Bank Support",
       "lat": 42.87,
       "lng": 74.59,
-      "u": 65700,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +139,7 @@
       "n": "Two New Programs to Advance Morocco's Digital Transformation and Climate Resilience",
       "lat": 34.02,
       "lng": -6.84,
-      "u": 66550,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +169,7 @@
       "n": "World Bank Support to Help Solomon Islands Recover from Tropical Cyclone Maila",
       "lat": -9.43,
       "lng": 160,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "Kyrgyz Republic to Access Innovative Finance Through Energy Reform Program",
       "lat": 42.87,
       "lng": 74.59,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "World Bank Group: New Country Partnership Framework Promotes Private Sector-Led Growth in Argentina",
       "lat": -34.6,
       "lng": -58.38,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +259,7 @@
       "n": "Strong Policy Action Key to Protecting Cambodia's Jobs and Livelihoods Amid Shocks",
       "lat": 11.56,
       "lng": 104.93,
-      "u": 69950,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +289,7 @@
       "n": "World Bank Provides Additional Support to Help Marshall Islands Respond to Energy Crisis",
       "lat": 8,
       "lng": 122,
-      "u": 70800,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +319,7 @@
       "n": "New US$900 million World Bank Financing to Improve Iraq’s Road Connectivity and Support Job Creation",
       "lat": 33.31,
       "lng": 44.36,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "World Bank Group Supports Resilient Municipal Infrastructure to Modernize Cities in Türkiye",
       "lat": 39.93,
       "lng": 32.86,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -343,39 +373,22 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-0abde6d5bb59",
-      "n": "Moldova to Advance Reforms for Growth, Jobs, Resilience, and EU Integration with World Bank Support",
-      "lat": 43.2,
-      "lng": 55,
-      "u": 73350,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Moldova",
-      "sector": "infrastructure",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Moldova",
-      "date": "2026-06-04 18:02 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "The World Bank approved the Growth and Resilience Development Policy Loan (DPL) for the Republic of Moldova, aimed at strengthening competitiveness, job creation, efficiency and transparency of markets, as well as economic integration with the European Union.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/04/moldova-growth-and-resilience-development-policy-finance-operation",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": -34.6,
+        "lng": -58.38
+      },
+      "label": "World Bank Group -> Argentina live signal",
+      "intensity": 0.78,
+      "isLiveSignal": true
+    },
     {
       "from": {
         "lat": 38.9,
@@ -386,7 +399,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.78,
+      "intensity": 0.77,
       "isLiveSignal": true
     },
     {
@@ -399,7 +412,7 @@
         "lng": 20
       },
       "label": "World Bank Group -> Cameroon,Central African Republic live signal",
-      "intensity": 0.77,
+      "intensity": 0.76,
       "isLiveSignal": true
     },
     {
@@ -412,7 +425,7 @@
         "lng": 74.59
       },
       "label": "World Bank Group -> Kyrgyz Republic live signal",
-      "intensity": 0.76,
+      "intensity": 0.75,
       "isLiveSignal": true
     },
     {
@@ -425,7 +438,7 @@
         "lng": -6.84
       },
       "label": "World Bank Group -> Morocco live signal",
-      "intensity": 0.75,
+      "intensity": 0.74,
       "isLiveSignal": true
     },
     {
@@ -438,7 +451,7 @@
         "lng": 160
       },
       "label": "World Bank Group -> Solomon Islands live signal",
-      "intensity": 0.74,
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -451,7 +464,7 @@
         "lng": 74.59
       },
       "label": "World Bank Group -> Kyrgyz Republic live signal",
-      "intensity": 0.73,
+      "intensity": 0.72,
       "isLiveSignal": true
     },
     {
@@ -464,7 +477,7 @@
         "lng": -58.38
       },
       "label": "World Bank Group -> Argentina live signal",
-      "intensity": 0.72,
+      "intensity": 0.71,
       "isLiveSignal": true
     },
     {
@@ -477,7 +490,7 @@
         "lng": 104.93
       },
       "label": "World Bank Group -> Cambodia live signal",
-      "intensity": 0.71,
+      "intensity": 0.7000000000000001,
       "isLiveSignal": true
     },
     {
@@ -490,7 +503,7 @@
         "lng": 122
       },
       "label": "World Bank Group -> Marshall Islands,Pacific Islands live signal",
-      "intensity": 0.7000000000000001,
+      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
     {
@@ -503,7 +516,7 @@
         "lng": 44.36
       },
       "label": "World Bank Group -> Iraq live signal",
-      "intensity": 0.6900000000000001,
+      "intensity": 0.68,
       "isLiveSignal": true
     },
     {
@@ -516,24 +529,18 @@
         "lng": 32.86
       },
       "label": "World Bank Group -> Turkey live signal",
-      "intensity": 0.68,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 43.2,
-        "lng": 55
-      },
-      "label": "World Bank Group -> Moldova live signal",
       "intensity": 0.67,
       "isLiveSignal": true
     }
   ],
   "hotspots": [
+    {
+      "n": "Argentina live investment news cluster",
+      "lat": -34.6,
+      "lng": -58.38,
+      "strength": 0.61,
+      "isLiveSignal": true
+    },
     {
       "n": "Kyrgyz Republic live investment news cluster",
       "lat": 42.87,
