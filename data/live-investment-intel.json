@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-17T12:00:12.457Z",
-    "lastAttemptAt": "2026-06-17T12:00:12.457Z",
+    "generatedAt": "2026-06-17T15:35:38.061Z",
+    "lastAttemptAt": "2026-06-17T15:35:38.061Z",
     "status": "ok",
     "recordCount": 13,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -15,11 +15,41 @@
   },
   "records": [
     {
+      "id": "wb-242a464084be",
+      "n": "Malawi: Unlocking Private Investment, Jobs, and Foreign Exchange Through Reforms",
+      "lat": 1.5,
+      "lng": 20,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Malawi",
+      "sector": "Economic Growth",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Malawi",
+      "date": "2026-06-17 09:16 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Africa",
+      "summary": "See how targeted reforms in mining, tourism, and mango production could unlock 100,000 jobs, expand exports, and attract new private investment in Malawi.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/17/malawi-unlocking-private-investment-jobs-and-foreign-exchange-through-reforms",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-4622da06705f",
       "n": "New World Bank Group Partnership with Poland Focuses on Mobilizing Private Capital, Driving Innovation, and Creating Better Jobs",
       "lat": 52.23,
       "lng": 21.01,
-      "u": 64000,
+      "u": 64850,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -49,7 +79,7 @@
       "n": "World Bank Approves US$300 Million to Help Ghana Strengthen Secondary Education and Skills Development",
       "lat": 5.56,
       "lng": -0.2,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -79,7 +109,7 @@
       "n": "World Bank Group Supports Argentina's Economic Reforms with Innovative Package to Mobilize $2 Billion in Commercial Financing",
       "lat": -34.6,
       "lng": -58.38,
-      "u": 65700,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +139,7 @@
       "n": "Second Emerging Markets CLO Advances World Bank Group Push to Mobilize Private Capital for Jobs",
       "lat": 20,
       "lng": 0,
-      "u": 66550,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +169,7 @@
       "n": "World Bank Group Backs Expansion of Türkiye’s Distributed Renewable Energy Market",
       "lat": 39.93,
       "lng": 32.86,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "World Bank Approves US$1.12 Billion Program to Modernize the Douala–Bangui Economic Corridor",
       "lat": 1.5,
       "lng": 20,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "Kyrgyz Republic to Improve Water Security and Agricultural Productivity with World Bank Support",
       "lat": 42.87,
       "lng": 74.59,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +259,7 @@
       "n": "Two New Programs to Advance Morocco's Digital Transformation and Climate Resilience",
       "lat": 34.02,
       "lng": -6.84,
-      "u": 69950,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +289,7 @@
       "n": "World Bank Support to Help Solomon Islands Recover from Tropical Cyclone Maila",
       "lat": -9.43,
       "lng": 160,
-      "u": 70800,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +319,7 @@
       "n": "Kyrgyz Republic to Access Innovative Finance Through Energy Reform Program",
       "lat": 42.87,
       "lng": 74.59,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "World Bank Group: New Country Partnership Framework Promotes Private Sector-Led Growth in Argentina",
       "lat": -34.6,
       "lng": -58.38,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +379,7 @@
       "n": "Strong Policy Action Key to Protecting Cambodia's Jobs and Livelihoods Amid Shocks",
       "lat": 11.56,
       "lng": 104.93,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -373,39 +403,22 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-87a4052dcf28",
-      "n": "World Bank Provides Additional Support to Help Marshall Islands Respond to Energy Crisis",
-      "lat": 8,
-      "lng": 122,
-      "u": 74200,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Marshall Islands,Pacific Islands",
-      "sector": "Energy-access",
-      "form": "Official financing / program approval",
-      "amount": "US$9 million",
-      "category": "World Bank Group -> Marshall Islands,Pacific Islands",
-      "date": "2026-06-09 08:35 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "East Asia and Pacific",
-      "summary": "The World Bank has approved an additional US$9 million in financing to help the Republic of the Marshall Islands respond to sharply higher energy costs that are placing pressure on families, businesses, public services, and the national budget.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/04/world-bank-provides-additional-support-to-help-marshall-islands-respond-to-energy-crisis",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Malawi live signal",
+      "intensity": 0.78,
+      "isLiveSignal": true
+    },
     {
       "from": {
         "lat": 38.9,
@@ -416,7 +429,7 @@
         "lng": 21.01
       },
       "label": "World Bank Group -> Poland live signal",
-      "intensity": 0.78,
+      "intensity": 0.77,
       "isLiveSignal": true
     },
     {
@@ -429,7 +442,7 @@
         "lng": -0.2
       },
       "label": "World Bank Group -> Ghana live signal",
-      "intensity": 0.77,
+      "intensity": 0.76,
       "isLiveSignal": true
     },
     {
@@ -442,7 +455,7 @@
         "lng": -58.38
       },
       "label": "World Bank Group -> Argentina live signal",
-      "intensity": 0.76,
+      "intensity": 0.75,
       "isLiveSignal": true
     },
     {
@@ -455,7 +468,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.75,
+      "intensity": 0.74,
       "isLiveSignal": true
     },
     {
@@ -468,7 +481,7 @@
         "lng": 32.86
       },
       "label": "World Bank Group -> Turkey live signal",
-      "intensity": 0.74,
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -481,7 +494,7 @@
         "lng": 20
       },
       "label": "World Bank Group -> Cameroon,Central African Republic live signal",
-      "intensity": 0.73,
+      "intensity": 0.72,
       "isLiveSignal": true
     },
     {
@@ -494,7 +507,7 @@
         "lng": 74.59
       },
       "label": "World Bank Group -> Kyrgyz Republic live signal",
-      "intensity": 0.72,
+      "intensity": 0.71,
       "isLiveSignal": true
     },
     {
@@ -507,7 +520,7 @@
         "lng": -6.84
       },
       "label": "World Bank Group -> Morocco live signal",
-      "intensity": 0.71,
+      "intensity": 0.7000000000000001,
       "isLiveSignal": true
     },
     {
@@ -520,7 +533,7 @@
         "lng": 160
       },
       "label": "World Bank Group -> Solomon Islands live signal",
-      "intensity": 0.7000000000000001,
+      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
     {
@@ -533,7 +546,7 @@
         "lng": 74.59
       },
       "label": "World Bank Group -> Kyrgyz Republic live signal",
-      "intensity": 0.6900000000000001,
+      "intensity": 0.68,
       "isLiveSignal": true
     },
     {
@@ -546,7 +559,7 @@
         "lng": -58.38
       },
       "label": "World Bank Group -> Argentina live signal",
-      "intensity": 0.68,
+      "intensity": 0.67,
       "isLiveSignal": true
     },
     {
@@ -559,19 +572,6 @@
         "lng": 104.93
       },
       "label": "World Bank Group -> Cambodia live signal",
-      "intensity": 0.67,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 8,
-        "lng": 122
-      },
-      "label": "World Bank Group -> Marshall Islands,Pacific Islands live signal",
       "intensity": 0.66,
       "isLiveSignal": true
     }
