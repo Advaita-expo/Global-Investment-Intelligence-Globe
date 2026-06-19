@@ -2,16 +2,17 @@
   "meta": {
     "feed": "Official development finance live feed",
     "generatedAt": "2026-06-19T10:08:56.111Z",
-    "lastAttemptAt": "2026-06-19T10:08:56.111Z",
-    "status": "ok",
+    "lastAttemptAt": "2026-06-19T13:52:53.768Z",
+    "status": "error",
     "recordCount": 14,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
-    "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
+    "sourcePolicy": "Live feed refresh failed; keeping the previous public-source feed. No records were invented.",
     "sources": [
       "World Bank public news API"
     ],
     "query": "investment",
-    "warnings": []
+    "warnings": [],
+    "error": "HTTP 500 for https://search.worldbank.org/api/v2/news?format=json&rows=20&fct=displayconttype_exact%2Ctopic_exact%2Clang_exact%2Ccount_exact%2Ccountcode_exact%2Cadmreg_exact&src=cq55&apilang=en&lang_exact=English&displayconttype_exact=Press+Release&os=0"
   },
   "records": [
     {
