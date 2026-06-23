@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-23T05:36:27.591Z",
-    "lastAttemptAt": "2026-06-23T05:36:27.591Z",
+    "generatedAt": "2026-06-23T08:54:24.978Z",
+    "lastAttemptAt": "2026-06-23T08:54:24.978Z",
     "status": "ok",
-    "recordCount": 15,
+    "recordCount": 14,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -285,11 +285,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-12010f1e418f",
+      "n": "Strengthening Togo's logistics competitiveness by modernizing its transport infrastructure",
+      "lat": 20,
+      "lng": 0,
+      "u": 71650,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Global",
+      "sector": "Infrastructure And Growth",
+      "form": "Official financing / program approval",
+      "amount": "$200 million",
+      "category": "World Bank Group -> Global",
+      "date": "2026-06-16 09:36 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Global",
+      "summary": "The World Bank Group approved today $200 million in financing from the International Development Association (IDA) for the Republic of Togo to improve the country's transport and logistics systems. Through an integrated territorial development approach, the project aims to link agricultural production and peri-urban development areas to market areas and urban logistics centers.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/16/strengthening-togo-s-logistics-competitiveness-by-modernizing-its-transport-infrastructure",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-ceaf3a010457",
       "n": "World Bank Group Supports Argentina's Economic Reforms with Innovative Package to Mobilize $2 Billion in Commercial Financing",
       "lat": -34.6,
       "lng": -58.38,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "Second Emerging Markets CLO Advances World Bank Group Push to Mobilize Private Capital for Jobs",
       "lat": 20,
       "lng": 0,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +379,7 @@
       "n": "World Bank Group Backs Expansion of Türkiye’s Distributed Renewable Energy Market",
       "lat": 39.93,
       "lng": 32.86,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -379,7 +409,7 @@
       "n": "World Bank Approves US$1.12 Billion Program to Modernize the Douala–Bangui Economic Corridor",
       "lat": 1.5,
       "lng": 20,
-      "u": 74200,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -398,66 +428,6 @@
       "bloc": "Africa",
       "summary": "The World Bank Group Board of Executive Directors today approved a US$1.12 billion Multiphase Programmatic Approach (MPA) program to transform the Douala–Bangui corridor, with a first phase of US$525 million targeting priority infrastructure rehabilitation, road safety, and maintenance reforms in Cameroon, the Central African Republic (CAR), and at the regional CEMAC level.",
       "url": "https://www.worldbank.org/en/news/press-release/2026/06/12/world-bank-approves-us-1-12-billion-program-to-modernize-the-douala-bangui-economic-corridor",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-3f60cc095381",
-      "n": "Kyrgyz Republic to Improve Water Security and Agricultural Productivity with World Bank Support",
-      "lat": 42.87,
-      "lng": 74.59,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Kyrgyz Republic",
-      "sector": "Agricultural Water Management",
-      "form": "Official financing / program approval",
-      "amount": "$95.75 million",
-      "category": "World Bank Group -> Kyrgyz Republic",
-      "date": "2026-06-12 18:10 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "The World Bank’s Board of Executive Directors today approved $95.75 million in financing for the Kyrgyz Republic National Irrigation Investment Program.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/12/kyrgyz-republic-to-improve-water-security-and-agricultural-productivity-with-world-bank-support",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-6a676f97b66c",
-      "n": "Two New Programs to Advance Morocco's Digital Transformation and Climate Resilience",
-      "lat": 34.02,
-      "lng": -6.84,
-      "u": 75900,
-      "t": "development",
-      "tier": 1,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Morocco",
-      "sector": "Digital-transformation",
-      "form": "Official financing / program approval",
-      "amount": "$650 million",
-      "category": "World Bank Group -> Morocco",
-      "date": "2026-06-12 18:00 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Middle East and North Africa",
-      "summary": "The World Bank's Board of Directors has approved two new programs totaling $650 million that will help accelerate progress toward Morocco's digital transformation goals while boosting the country’s financial resilience against climate, disaster, and cyber risks.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/12/two-new-programs-to-advance-morocco-s-digital-transformation-and-climate-resilience",
       "globe": true,
       "live": true,
       "isLiveSignal": true,
@@ -589,11 +559,24 @@
         "lng": -77.04
       },
       "to": {
+        "lat": 20,
+        "lng": 0
+      },
+      "label": "World Bank Group -> Global live signal",
+      "intensity": 0.6900000000000001,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
         "lat": -34.6,
         "lng": -58.38
       },
       "label": "World Bank Group -> Argentina live signal",
-      "intensity": 0.6900000000000001,
+      "intensity": 0.68,
       "isLiveSignal": true
     },
     {
@@ -606,7 +589,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.68,
+      "intensity": 0.67,
       "isLiveSignal": true
     },
     {
@@ -619,7 +602,7 @@
         "lng": 32.86
       },
       "label": "World Bank Group -> Turkey live signal",
-      "intensity": 0.67,
+      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -632,35 +615,17 @@
         "lng": 20
       },
       "label": "World Bank Group -> Cameroon,Central African Republic live signal",
-      "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 42.87,
-        "lng": 74.59
-      },
-      "label": "World Bank Group -> Kyrgyz Republic live signal",
       "intensity": 0.65,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 34.02,
-        "lng": -6.84
-      },
-      "label": "World Bank Group -> Morocco live signal",
-      "intensity": 0.64,
       "isLiveSignal": true
     }
   ],
-  "hotspots": []
+  "hotspots": [
+    {
+      "n": "Global live investment news cluster",
+      "lat": 20,
+      "lng": 0,
+      "strength": 0.61,
+      "isLiveSignal": true
+    }
+  ]
 }
