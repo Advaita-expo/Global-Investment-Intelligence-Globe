@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-23T19:00:27.974Z",
-    "lastAttemptAt": "2026-06-23T19:00:27.974Z",
+    "generatedAt": "2026-06-23T21:10:17.942Z",
+    "lastAttemptAt": "2026-06-23T21:10:17.942Z",
     "status": "ok",
     "recordCount": 15,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -345,11 +345,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-f30af6e7745a",
+      "n": "A New Country Partnership Framework and $320 Million for Benin",
+      "lat": 1.5,
+      "lng": 20,
+      "u": 73350,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Benin",
+      "sector": "Human Capital For Growth",
+      "form": "Official financing / program approval",
+      "amount": "$320 Million",
+      "category": "World Bank Group -> Benin",
+      "date": "2026-06-16 14:09 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "renewables",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Africa",
+      "summary": "The World Bank Group today endorsed a new Country Partnership Framework (CPF) for Benin, and approved two International Development Association (IDA) financing operations totaling $320 million and access to the Prevention and Resilience Allocation (PRA). These aim to facilitate access to renewable electricity, reduce stunting, and strengthen resilience and social cohesion.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/16/a-new-country-partnership-framework-and-320-million-for-benin",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-12010f1e418f",
       "n": "Strengthening Togo's logistics competitiveness by modernizing its transport infrastructure",
       "lat": 20,
       "lng": 0,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -379,7 +409,7 @@
       "n": "World Bank Group Supports Argentina's Economic Reforms with Innovative Package to Mobilize $2 Billion in Commercial Financing",
       "lat": -34.6,
       "lng": -58.38,
-      "u": 74200,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -409,9 +439,9 @@
       "n": "Second Emerging Markets CLO Advances World Bank Group Push to Mobilize Private Capital for Jobs",
       "lat": 20,
       "lng": 0,
-      "u": 75050,
+      "u": 75900,
       "t": "development",
-      "tier": 0,
+      "tier": 1,
       "status": "Live Official Development Finance Signal",
       "investor": "World Bank Group",
       "recipient": "Global",
@@ -428,36 +458,6 @@
       "bloc": "Global",
       "summary": "The World Bank Group, through the International Finance Corporation (IFC), has closed its second securitization transaction under the Emerging Markets Securitization Program (EMSP), marking continued progress in mobilizing private capital to support private sector growth and build a scalable market for institutional investment in emerging markets.",
       "url": "https://www.worldbank.org/en/news/press-release/2026/06/15/second-emerging-markets-clo-advances-world-bank-group-push-to-mobilize-private-capital-for-jobs",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-cb0fa38fe2db",
-      "n": "World Bank Group Backs Expansion of Türkiye’s Distributed Renewable Energy Market",
-      "lat": 39.93,
-      "lng": 32.86,
-      "u": 75900,
-      "t": "development",
-      "tier": 1,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Turkey",
-      "sector": "ev",
-      "form": "Official financing / program approval",
-      "amount": "US$468.4 million",
-      "category": "World Bank Group -> Turkey",
-      "date": "2026-06-15 13:01 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "ev",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Global",
-      "summary": "The World Bank approved €400 million (US$468.4 million equivalent) in additional financing to scale up Türkiye’s distributed renewable energy market, expanding support for distributed wind power and commercial-scale battery storage.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/15/world-bank-group-backs-expansion-of-turkiye-s-distributed-renewable-energy-market",
       "globe": true,
       "live": true,
       "isLiveSignal": true,
@@ -615,11 +615,24 @@
         "lng": -77.04
       },
       "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Benin live signal",
+      "intensity": 0.67,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
         "lat": 20,
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.67,
+      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -632,7 +645,7 @@
         "lng": -58.38
       },
       "label": "World Bank Group -> Argentina live signal",
-      "intensity": 0.66,
+      "intensity": 0.65,
       "isLiveSignal": true
     },
     {
@@ -645,19 +658,6 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.65,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 39.93,
-        "lng": 32.86
-      },
-      "label": "World Bank Group -> Turkey live signal",
       "intensity": 0.64,
       "isLiveSignal": true
     }
