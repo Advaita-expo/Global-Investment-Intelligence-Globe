@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-23T08:54:24.978Z",
-    "lastAttemptAt": "2026-06-23T08:54:24.978Z",
+    "generatedAt": "2026-06-23T11:50:43.372Z",
+    "lastAttemptAt": "2026-06-23T11:50:43.372Z",
     "status": "ok",
     "recordCount": 14,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -135,11 +135,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-b4c5f4633ee9",
+      "n": "Mauritania Launches Landmark Program to Expand Quality Education and Opportunities for Every Child",
+      "lat": 20,
+      "lng": 0,
+      "u": 67400,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Global",
+      "sector": "Gender",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Global",
+      "date": "2026-06-18 10:39 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Global",
+      "summary": "The World Bank Group today announced the launch of the Mauritania Improving Education Quality, Results, and Access for All (IQRAA) Operation, a transformative initiative aimed at improving the quality of basic education, expanding access to secondary education, particularly for adolescent girls, and strengthening education service delivery in refugee-hosting areas.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/18/mauritania-launches-landmark-program-to-expand-quality-education-and-opportunities-for-every-child",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-510e176f1abf",
       "n": "World Bank Group Supports Chad's Efforts to Improve Access to Water and Strengthen People's Adaptation to Climate Change",
       "lat": 1.5,
       "lng": 20,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "Enhanced Rural Infrastructure in Uzbekistan to Improve Living Standards for 1.2 Million People and Expand Access to Jobs",
       "lat": 41.31,
       "lng": 69.24,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "Malawi: Unlocking Private Investment, Jobs, and Foreign Exchange Through Reforms",
       "lat": 1.5,
       "lng": 20,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +259,7 @@
       "n": "New World Bank Group Partnership with Poland Focuses on Mobilizing Private Capital, Driving Innovation, and Creating Better Jobs",
       "lat": 52.23,
       "lng": 21.01,
-      "u": 69950,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +289,7 @@
       "n": "World Bank Approves US$300 Million to Help Ghana Strengthen Secondary Education and Skills Development",
       "lat": 5.56,
       "lng": -0.2,
-      "u": 70800,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +319,7 @@
       "n": "Strengthening Togo's logistics competitiveness by modernizing its transport infrastructure",
       "lat": 20,
       "lng": 0,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "World Bank Group Supports Argentina's Economic Reforms with Innovative Package to Mobilize $2 Billion in Commercial Financing",
       "lat": -34.6,
       "lng": -58.38,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +379,7 @@
       "n": "Second Emerging Markets CLO Advances World Bank Group Push to Mobilize Private Capital for Jobs",
       "lat": 20,
       "lng": 0,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -379,7 +409,7 @@
       "n": "World Bank Group Backs Expansion of Türkiye’s Distributed Renewable Energy Market",
       "lat": 39.93,
       "lng": 32.86,
-      "u": 74200,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -398,36 +428,6 @@
       "bloc": "Global",
       "summary": "The World Bank approved €400 million (US$468.4 million equivalent) in additional financing to scale up Türkiye’s distributed renewable energy market, expanding support for distributed wind power and commercial-scale battery storage.",
       "url": "https://www.worldbank.org/en/news/press-release/2026/06/15/world-bank-group-backs-expansion-of-turkiye-s-distributed-renewable-energy-market",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-6779bbde000c",
-      "n": "World Bank Approves US$1.12 Billion Program to Modernize the Douala–Bangui Economic Corridor",
-      "lat": 1.5,
-      "lng": 20,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Cameroon,Central African Republic",
-      "sector": "Infrastructure And Growth",
-      "form": "Official financing / program approval",
-      "amount": "US$1.12 Billion",
-      "category": "World Bank Group -> Cameroon,Central African Republic",
-      "date": "2026-06-12 19:39 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Africa",
-      "summary": "The World Bank Group Board of Executive Directors today approved a US$1.12 billion Multiphase Programmatic Approach (MPA) program to transform the Douala–Bangui corridor, with a first phase of US$525 million targeting priority infrastructure rehabilitation, road safety, and maintenance reforms in Cameroon, the Central African Republic (CAR), and at the regional CEMAC level.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/12/world-bank-approves-us-1-12-billion-program-to-modernize-the-douala-bangui-economic-corridor",
       "globe": true,
       "live": true,
       "isLiveSignal": true,
@@ -494,11 +494,24 @@
         "lng": -77.04
       },
       "to": {
+        "lat": 20,
+        "lng": 0
+      },
+      "label": "World Bank Group -> Global live signal",
+      "intensity": 0.74,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
         "lat": 1.5,
         "lng": 20
       },
       "label": "World Bank Group -> Chad live signal",
-      "intensity": 0.74,
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -511,7 +524,7 @@
         "lng": 69.24
       },
       "label": "World Bank Group -> Uzbekistan live signal",
-      "intensity": 0.73,
+      "intensity": 0.72,
       "isLiveSignal": true
     },
     {
@@ -524,7 +537,7 @@
         "lng": 20
       },
       "label": "World Bank Group -> Malawi live signal",
-      "intensity": 0.72,
+      "intensity": 0.71,
       "isLiveSignal": true
     },
     {
@@ -537,7 +550,7 @@
         "lng": 21.01
       },
       "label": "World Bank Group -> Poland live signal",
-      "intensity": 0.71,
+      "intensity": 0.7000000000000001,
       "isLiveSignal": true
     },
     {
@@ -550,7 +563,7 @@
         "lng": -0.2
       },
       "label": "World Bank Group -> Ghana live signal",
-      "intensity": 0.7000000000000001,
+      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
     {
@@ -563,7 +576,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.6900000000000001,
+      "intensity": 0.68,
       "isLiveSignal": true
     },
     {
@@ -576,7 +589,7 @@
         "lng": -58.38
       },
       "label": "World Bank Group -> Argentina live signal",
-      "intensity": 0.68,
+      "intensity": 0.67,
       "isLiveSignal": true
     },
     {
@@ -589,7 +602,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.67,
+      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -602,19 +615,6 @@
         "lng": 32.86
       },
       "label": "World Bank Group -> Turkey live signal",
-      "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Cameroon,Central African Republic live signal",
       "intensity": 0.65,
       "isLiveSignal": true
     }
@@ -624,7 +624,7 @@
       "n": "Global live investment news cluster",
       "lat": 20,
       "lng": 0,
-      "strength": 0.61,
+      "strength": 0.69,
       "isLiveSignal": true
     }
   ]
