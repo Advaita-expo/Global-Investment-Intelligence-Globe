@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-24T06:07:46.629Z",
-    "lastAttemptAt": "2026-06-24T06:07:46.629Z",
+    "generatedAt": "2026-06-24T09:54:39.288Z",
+    "lastAttemptAt": "2026-06-24T09:54:39.288Z",
     "status": "ok",
     "recordCount": 15,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -15,11 +15,41 @@
   },
   "records": [
     {
+      "id": "wb-bfef39e6e5e5",
+      "n": "World Bank Helps Bangladesh Strengthen Its Banking Sector",
+      "lat": 23.81,
+      "lng": 90.41,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Bangladesh",
+      "sector": "Information And Communication Technologies",
+      "form": "Official financing / program approval",
+      "amount": "$450 million",
+      "category": "World Bank Group -> Bangladesh",
+      "date": "2026-06-24 12:31 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "South Asia",
+      "summary": "WASHINGTON, June 24, 2026—The World Bank Board of Executive Directors has approved $450 million in financing to help Bangladesh strengthen the foundations for a stronger banking sector, a prerequisite for the revival of the country’s economic growth and job creation. The Financial Sector Support Project II aims to bolster the deposit protection system to protect small depositors and build Bangladesh Bank’s supervisory capacity and systems. It lays the groundwork for bank resolution and reform of state-owned banks. It will also support the deposit protection fund by increasing its capital and advance key reform priorities, including enhancing the deposit protection system, establishing an effective Emergency Liquidity Assistance framework, developing bank restructuring strategies, and supporting reforms in state-owned banks. The banking sector faces significant challenges caused by weak corporate governance, regulatory capture, and related-party lending. The non-performing loan (NPL) ratio stood at 32.6 percent as of the end of March 2026, well above the average for South Asian banks of 7.9%, and the system-wide capital-to-risk-weighted assets ratio was negative 2.6 percent as of the end of December 2025. “Bangladesh’s vision of attaining a trillion-dollar economy requires a stable and inclusive financial sector. But the banking sector—which accounts for about 90 percent of total financial sector assets—faces mounting stress,” said Jean Pesme, World Bank Division Director for Bangladesh and Bhutan. “This project will help Bangladesh put in place a set of essential tools, systems, and safeguards needed to protect small depositors and support confidence, restore stability in the banking sector, allowing it to support economic growth and job creation.” It will upgrade and modernize Bangladesh Bank’s Information and Communications Technology (ICT) infrastructure, helping address rising cybersecurity risks and close critical gaps in sector-wide data and analytics. This will improve Bangladesh Bank’s ability to monitor risks, enhance data-driven and risk-based supervision, and improve the resilience of the financial sector. “The project, which forms part of a coordinated approach by development partners including the IMF and the Asian Development Bank, supports measures to bolster crisis preparedness and build the authorities’ capacity to manage banking sector stress,” said Toshiaki Ono, World Bank Senior Financial Sector Specialist and Task Team Leader of the project.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/24/world-bank-helps-bangladesh-strengthen-its-banking-sector",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-9229dbba280b",
       "n": "World Bank Supports Regional Program to Expand Renewable Energy Access and Create Jobs in West and Central Africa",
       "lat": 1.5,
       "lng": 20,
-      "u": 64000,
+      "u": 64850,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -49,7 +79,7 @@
       "n": "New World Bank Development Policy Operation to Boost Ukraine’s Private Sector Financing and Attract Skilled Labor to Jobs",
       "lat": 50.45,
       "lng": 30.52,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -79,7 +109,7 @@
       "n": "World Bank Approves $40 Million to Boost Agricultural Value Chains and Job Creation in Sierra Leone",
       "lat": 1.5,
       "lng": 20,
-      "u": 65700,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +139,7 @@
       "n": "Eastern Africa Set to Gain More Reliable, Affordable Power with World Bank Group Support",
       "lat": 1.5,
       "lng": 20,
-      "u": 66550,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +169,7 @@
       "n": "World Bank Group Provides New Financing in Support of India’s Reform Program to Boost Growth and Jobs",
       "lat": 28.61,
       "lng": 77.21,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "Additional Financing to Strengthen Djibouti’s Regional Economic Corridor",
       "lat": 20,
       "lng": 0,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "Mauritania Launches Landmark Program to Expand Quality Education and Opportunities for Every Child",
       "lat": 20,
       "lng": 0,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +259,7 @@
       "n": "World Bank Group Supports Chad's Efforts to Improve Access to Water and Strengthen People's Adaptation to Climate Change",
       "lat": 1.5,
       "lng": 20,
-      "u": 69950,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +289,7 @@
       "n": "Enhanced Rural Infrastructure in Uzbekistan to Improve Living Standards for 1.2 Million People and Expand Access to Jobs",
       "lat": 41.31,
       "lng": 69.24,
-      "u": 70800,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +319,7 @@
       "n": "Malawi: Unlocking Private Investment, Jobs, and Foreign Exchange Through Reforms",
       "lat": 1.5,
       "lng": 20,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "New World Bank Group Partnership with Poland Focuses on Mobilizing Private Capital, Driving Innovation, and Creating Better Jobs",
       "lat": 52.23,
       "lng": 21.01,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +379,7 @@
       "n": "World Bank Approves US$300 Million to Help Ghana Strengthen Secondary Education and Skills Development",
       "lat": 5.56,
       "lng": -0.2,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -379,7 +409,7 @@
       "n": "A New Country Partnership Framework and $320 Million for Benin",
       "lat": 1.5,
       "lng": 20,
-      "u": 74200,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -409,9 +439,9 @@
       "n": "Strengthening Togo's logistics competitiveness by modernizing its transport infrastructure",
       "lat": 20,
       "lng": 0,
-      "u": 75050,
+      "u": 75900,
       "t": "development",
-      "tier": 0,
+      "tier": 1,
       "status": "Live Official Development Finance Signal",
       "investor": "World Bank Group",
       "recipient": "Global",
@@ -433,39 +463,22 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-ceaf3a010457",
-      "n": "World Bank Group Supports Argentina's Economic Reforms with Innovative Package to Mobilize $2 Billion in Commercial Financing",
-      "lat": -34.6,
-      "lng": -58.38,
-      "u": 75900,
-      "t": "development",
-      "tier": 1,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Argentina",
-      "sector": "infrastructure",
-      "form": "Official financing / program approval",
-      "amount": "$2 Billion",
-      "category": "World Bank Group -> Argentina",
-      "date": "2026-06-16 07:55 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Global",
-      "summary": "Guarantees will support the national government’s efforts to create jobs, boost investment, and strengthen economic stability",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/16/world-bank-group-supports-argentina-s-economic-reforms-with-innovative-package-to-mobilize-2-billion-in-commercial-finan",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 23.81,
+        "lng": 90.41
+      },
+      "label": "World Bank Group -> Bangladesh live signal",
+      "intensity": 0.78,
+      "isLiveSignal": true
+    },
     {
       "from": {
         "lat": 38.9,
@@ -476,7 +489,7 @@
         "lng": 20
       },
       "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
-      "intensity": 0.78,
+      "intensity": 0.77,
       "isLiveSignal": true
     },
     {
@@ -489,19 +502,6 @@
         "lng": 30.52
       },
       "label": "World Bank Group -> Ukraine live signal",
-      "intensity": 0.77,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Sierra Leone live signal",
       "intensity": 0.76,
       "isLiveSignal": true
     },
@@ -514,8 +514,21 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Uganda,Tanzania,Somalia live signal",
+      "label": "World Bank Group -> Sierra Leone live signal",
       "intensity": 0.75,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Uganda,Tanzania,Somalia live signal",
+      "intensity": 0.74,
       "isLiveSignal": true
     },
     {
@@ -528,19 +541,6 @@
         "lng": 77.21
       },
       "label": "World Bank Group -> India live signal",
-      "intensity": 0.74,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 20,
-        "lng": 0
-      },
-      "label": "World Bank Group -> Djibouti live signal",
       "intensity": 0.73,
       "isLiveSignal": true
     },
@@ -553,86 +553,8 @@
         "lat": 20,
         "lng": 0
       },
-      "label": "World Bank Group -> Global live signal",
+      "label": "World Bank Group -> Djibouti live signal",
       "intensity": 0.72,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Chad live signal",
-      "intensity": 0.71,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 41.31,
-        "lng": 69.24
-      },
-      "label": "World Bank Group -> Uzbekistan live signal",
-      "intensity": 0.7000000000000001,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Malawi live signal",
-      "intensity": 0.6900000000000001,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 52.23,
-        "lng": 21.01
-      },
-      "label": "World Bank Group -> Poland live signal",
-      "intensity": 0.68,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 5.56,
-        "lng": -0.2
-      },
-      "label": "World Bank Group -> Ghana live signal",
-      "intensity": 0.67,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Benin live signal",
-      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -645,6 +567,84 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
+      "intensity": 0.71,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Chad live signal",
+      "intensity": 0.7000000000000001,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 41.31,
+        "lng": 69.24
+      },
+      "label": "World Bank Group -> Uzbekistan live signal",
+      "intensity": 0.6900000000000001,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Malawi live signal",
+      "intensity": 0.68,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 52.23,
+        "lng": 21.01
+      },
+      "label": "World Bank Group -> Poland live signal",
+      "intensity": 0.67,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 5.56,
+        "lng": -0.2
+      },
+      "label": "World Bank Group -> Ghana live signal",
+      "intensity": 0.66,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Benin live signal",
       "intensity": 0.65,
       "isLiveSignal": true
     },
@@ -654,10 +654,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": -34.6,
-        "lng": -58.38
+        "lat": 20,
+        "lng": 0
       },
-      "label": "World Bank Group -> Argentina live signal",
+      "label": "World Bank Group -> Global live signal",
       "intensity": 0.64,
       "isLiveSignal": true
     }
