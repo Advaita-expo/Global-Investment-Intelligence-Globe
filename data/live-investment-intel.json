@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-24T09:54:39.288Z",
-    "lastAttemptAt": "2026-06-24T09:54:39.288Z",
+    "generatedAt": "2026-06-24T12:12:46.316Z",
+    "lastAttemptAt": "2026-06-24T12:12:46.316Z",
     "status": "ok",
     "recordCount": 15,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -29,7 +29,7 @@
       "form": "Official financing / program approval",
       "amount": "$450 million",
       "category": "World Bank Group -> Bangladesh",
-      "date": "2026-06-24 12:31 UTC",
+      "date": "2026-06-24 05:31 UTC",
       "source": "World Bank Group",
       "sourceType": "World Bank public news API",
       "segment": "infrastructure",
