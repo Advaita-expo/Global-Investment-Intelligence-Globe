@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-24T17:24:13.123Z",
-    "lastAttemptAt": "2026-06-24T17:24:13.123Z",
+    "generatedAt": "2026-06-24T19:07:26.450Z",
+    "lastAttemptAt": "2026-06-24T19:07:26.450Z",
     "status": "ok",
     "recordCount": 14,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -45,11 +45,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-989fab9f1d0d",
+      "n": "Angola's AgriConnect Compact Targets Food Security, Jobs, and Agricultural Growth",
+      "lat": -8.84,
+      "lng": 13.23,
+      "u": 64850,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Angola",
+      "sector": "Agriculture And Food Security",
+      "form": "Official financing / program approval",
+      "amount": "$1.45 billion",
+      "category": "World Bank Group -> Angola",
+      "date": "2026-06-24 14:24 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Africa",
+      "summary": "See how Angola's AgriConnect Compact aims to create 700,000 jobs, cut food imports, and unlock $1.45 billion for agribusiness growth.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/24/angola-s-agriconnect-compact-targets-food-security-jobs-and-agricultural-growth",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-bfef39e6e5e5",
       "n": "World Bank Helps Bangladesh Strengthen Its Banking Sector",
       "lat": 23.81,
       "lng": 90.41,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -75,11 +105,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-63b0f59cb059",
+      "n": "World Bank Group Launches New Strategy to Support Ethiopia to Build Strong Foundations for More and Better Jobs",
+      "lat": 9.03,
+      "lng": 38.74,
+      "u": 66550,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Ethiopia",
+      "sector": "Jobs And Development",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Ethiopia",
+      "date": "2026-06-23 14:09 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Africa",
+      "summary": "See how the new World Bank Group framework aims to expand jobs, skills, energy, and health services across Ethiopia.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/23/world-bank-group-launches-new-strategy-to-support-ethiopia-to-build-strong-foundations-for-more-and-better-jobs",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-9229dbba280b",
       "n": "World Bank Supports Regional Program to Expand Renewable Energy Access and Create Jobs in West and Central Africa",
       "lat": 1.5,
       "lng": 20,
-      "u": 65700,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +169,7 @@
       "n": "New World Bank Development Policy Operation to Boost Ukraine’s Private Sector Financing and Attract Skilled Labor to Jobs",
       "lat": 50.45,
       "lng": 30.52,
-      "u": 66550,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +199,7 @@
       "n": "World Bank Approves $40 Million to Boost Agricultural Value Chains and Job Creation in Sierra Leone",
       "lat": 1.5,
       "lng": 20,
-      "u": 67400,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +229,7 @@
       "n": "Eastern Africa Set to Gain More Reliable, Affordable Power with World Bank Group Support",
       "lat": 1.5,
       "lng": 20,
-      "u": 68250,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +259,7 @@
       "n": "World Bank Group Provides New Financing in Support of India’s Reform Program to Boost Growth and Jobs",
       "lat": 28.61,
       "lng": 77.21,
-      "u": 69100,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +289,7 @@
       "n": "Additional Financing to Strengthen Djibouti’s Regional Economic Corridor",
       "lat": 20,
       "lng": 0,
-      "u": 69950,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +319,7 @@
       "n": "Mauritania Launches Landmark Program to Expand Quality Education and Opportunities for Every Child",
       "lat": 20,
       "lng": 0,
-      "u": 70800,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +349,7 @@
       "n": "World Bank Group Supports Chad's Efforts to Improve Access to Water and Strengthen People's Adaptation to Climate Change",
       "lat": 1.5,
       "lng": 20,
-      "u": 71650,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +379,7 @@
       "n": "Enhanced Rural Infrastructure in Uzbekistan to Improve Living Standards for 1.2 Million People and Expand Access to Jobs",
       "lat": 41.31,
       "lng": 69.24,
-      "u": 72500,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +409,7 @@
       "n": "Malawi: Unlocking Private Investment, Jobs, and Foreign Exchange Through Reforms",
       "lat": 1.5,
       "lng": 20,
-      "u": 73350,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -368,66 +428,6 @@
       "bloc": "Africa",
       "summary": "See how targeted reforms in mining, tourism, and mango production could unlock 100,000 jobs, expand exports, and attract new private investment in Malawi.",
       "url": "https://www.worldbank.org/en/news/press-release/2026/06/17/malawi-unlocking-private-investment-jobs-and-foreign-exchange-through-reforms",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-4622da06705f",
-      "n": "New World Bank Group Partnership with Poland Focuses on Mobilizing Private Capital, Driving Innovation, and Creating Better Jobs",
-      "lat": 52.23,
-      "lng": 21.01,
-      "u": 74200,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Poland",
-      "sector": "infrastructure",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Poland",
-      "date": "2026-06-16 17:00 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "The World Bank Group's Poland Country Partnership Framework 2026-2031 aims to help Poland build a more innovative, competitive economy; mobilize private investment; and create better jobs.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/16/new-world-bank-group-partnership-poland-focuses-mobilizing-private-capital-driving-innovation-and-creating-better-jobs",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-90746d0c021f",
-      "n": "World Bank Approves US$300 Million to Help Ghana Strengthen Secondary Education and Skills Development",
-      "lat": 5.56,
-      "lng": -0.2,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Ghana",
-      "sector": "Education",
-      "form": "Official financing / program approval",
-      "amount": "US$300 Million",
-      "category": "World Bank Group -> Ghana",
-      "date": "2026-06-16 15:44 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "finance",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Africa",
-      "summary": "The World Bank today approved US$300 million in financing for the Ghana Secondary Education Transformation for Access, Relevance, and Results for Jobs (STARR-J) Project to expand access to quality secondary education and equip more young people with the basic knowledge and skills necessary for transition to higher education and the labor market.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/16/world-bank-approves-us-300-million-to-help-ghana-strengthen-secondary-education-and-skills-development",
       "globe": true,
       "live": true,
       "isLiveSignal": true,
@@ -455,10 +455,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 23.81,
-        "lng": 90.41
+        "lat": -8.84,
+        "lng": 13.23
       },
-      "label": "World Bank Group -> Bangladesh live signal",
+      "label": "World Bank Group -> Angola live signal",
       "intensity": 0.77,
       "isLiveSignal": true
     },
@@ -468,10 +468,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 1.5,
-        "lng": 20
+        "lat": 23.81,
+        "lng": 90.41
       },
-      "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
+      "label": "World Bank Group -> Bangladesh live signal",
       "intensity": 0.76,
       "isLiveSignal": true
     },
@@ -481,10 +481,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 50.45,
-        "lng": 30.52
+        "lat": 9.03,
+        "lng": 38.74
       },
-      "label": "World Bank Group -> Ukraine live signal",
+      "label": "World Bank Group -> Ethiopia live signal",
       "intensity": 0.75,
       "isLiveSignal": true
     },
@@ -497,8 +497,34 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Sierra Leone live signal",
+      "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
       "intensity": 0.74,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 50.45,
+        "lng": 30.52
+      },
+      "label": "World Bank Group -> Ukraine live signal",
+      "intensity": 0.73,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Sierra Leone live signal",
+      "intensity": 0.72,
       "isLiveSignal": true
     },
     {
@@ -511,7 +537,7 @@
         "lng": 20
       },
       "label": "World Bank Group -> Uganda,Tanzania,Somalia live signal",
-      "intensity": 0.73,
+      "intensity": 0.71,
       "isLiveSignal": true
     },
     {
@@ -524,7 +550,7 @@
         "lng": 77.21
       },
       "label": "World Bank Group -> India live signal",
-      "intensity": 0.72,
+      "intensity": 0.7000000000000001,
       "isLiveSignal": true
     },
     {
@@ -537,7 +563,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Djibouti live signal",
-      "intensity": 0.71,
+      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
     {
@@ -550,32 +576,6 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.7000000000000001,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Chad live signal",
-      "intensity": 0.6900000000000001,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 41.31,
-        "lng": 69.24
-      },
-      "label": "World Bank Group -> Uzbekistan live signal",
       "intensity": 0.68,
       "isLiveSignal": true
     },
@@ -588,7 +588,7 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Malawi live signal",
+      "label": "World Bank Group -> Chad live signal",
       "intensity": 0.67,
       "isLiveSignal": true
     },
@@ -598,10 +598,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 52.23,
-        "lng": 21.01
+        "lat": 41.31,
+        "lng": 69.24
       },
-      "label": "World Bank Group -> Poland live signal",
+      "label": "World Bank Group -> Uzbekistan live signal",
       "intensity": 0.66,
       "isLiveSignal": true
     },
@@ -611,10 +611,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 5.56,
-        "lng": -0.2
+        "lat": 1.5,
+        "lng": 20
       },
-      "label": "World Bank Group -> Ghana live signal",
+      "label": "World Bank Group -> Malawi live signal",
       "intensity": 0.65,
       "isLiveSignal": true
     }
