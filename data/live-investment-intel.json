@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-26T09:24:25.977Z",
-    "lastAttemptAt": "2026-06-26T09:24:25.977Z",
+    "generatedAt": "2026-06-26T11:57:42.004Z",
+    "lastAttemptAt": "2026-06-26T11:57:42.004Z",
     "status": "ok",
     "recordCount": 14,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -15,11 +15,41 @@
   },
   "records": [
     {
+      "id": "wb-69d3bb75d192",
+      "n": "World Bank Scales Up Support to Boost Jobs and Resilience in Northern Gulf of Guinea",
+      "lat": 1.5,
+      "lng": 20,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Benin,Cote-dIvoire,Togo",
+      "sector": "Social Safeguards",
+      "form": "Official financing / program approval",
+      "amount": "$163 million",
+      "category": "World Bank Group -> Benin,Cote-dIvoire,Togo",
+      "date": "2026-06-25 17:28 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Africa",
+      "summary": "The World Bank Group today approved a $163 million in additional financing to expand the Gulf of Guinea Northern Regions Social Cohesion (COSO) Project in Benin, Côte d’Ivoire, and Togo, strengthening resilience and boosting job creation for vulnerable communities affected by conflict, climate change, and displacement. The new financing will help scale up community-driven investments in some of the region’s most fragile border areas, where limited economic opportunities, high poverty, climate shocks, and spillovers from Sahel insecurity are putting livelihoods and social cohesion under increasing strain.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/25/world-bank-scales-up-support-to-boost-jobs-and-resilience-in-northern-gulf-of-guinea",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-ce942b8a37e5",
       "n": "SIRA: New Regional Drive to Equip Youth with Skills and Jobs in Cabo Verde, Cote d’Ivoire and Guinea",
       "lat": 1.5,
       "lng": 20,
-      "u": 64000,
+      "u": 64850,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -49,7 +79,7 @@
       "n": "Angola's AgriConnect Compact Targets Food Security, Jobs, and Agricultural Growth",
       "lat": -8.84,
       "lng": 13.23,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -75,11 +105,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-6ac2afb316df",
+      "n": "Expanding Electricity Access and Job Creation in Togo and The Gambia",
+      "lat": 20,
+      "lng": 0,
+      "u": 66550,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Togo,Gambia",
+      "sector": "Renewable Energy",
+      "form": "Official financing / program approval",
+      "amount": "$160 million",
+      "category": "World Bank Group -> Togo,Gambia",
+      "date": "2026-06-24 12:04 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Global",
+      "summary": "The World Bank Group today approved a $160 million financing to help expand access to reliable, affordable, and clean electricity in Togo and The Gambia, while strengthening regional energy integration across West Africa. The Regional Access Increase and Sustainable Energy Project (RAISE), implemented with the Economic Community of West African States (ECOWAS), is part of the broader West Africa Regional Electricity Market Program (REMP).",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/24/expanding-electricity-access-and-job-creation-in-togo-and-the-gambia",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-bfef39e6e5e5",
       "n": "World Bank Helps Bangladesh Strengthen Its Banking Sector",
       "lat": 23.81,
       "lng": 90.41,
-      "u": 65700,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +169,7 @@
       "n": "World Bank Group Launches New Strategy to Support Ethiopia to Build Strong Foundations for More and Better Jobs",
       "lat": 9.03,
       "lng": 38.74,
-      "u": 66550,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +199,7 @@
       "n": "World Bank Group Endorses New Country Partnership Framework for Guinea and Investments to boost Jobs and Growth",
       "lat": 1.5,
       "lng": 20,
-      "u": 67400,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +229,7 @@
       "n": "World Bank Supports Regional Program to Expand Renewable Energy Access and Create Jobs in West and Central Africa",
       "lat": 1.5,
       "lng": 20,
-      "u": 68250,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +259,7 @@
       "n": "New World Bank Development Policy Operation to Boost Ukraine’s Private Sector Financing and Attract Skilled Labor to Jobs",
       "lat": 50.45,
       "lng": 30.52,
-      "u": 69100,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +289,7 @@
       "n": "World Bank Approves $40 Million to Boost Agricultural Value Chains and Job Creation in Sierra Leone",
       "lat": 1.5,
       "lng": 20,
-      "u": 69950,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +319,7 @@
       "n": "Eastern Africa Set to Gain More Reliable, Affordable Power with World Bank Group Support",
       "lat": 1.5,
       "lng": 20,
-      "u": 70800,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +349,7 @@
       "n": "World Bank Group Provides New Financing in Support of India’s Reform Program to Boost Growth and Jobs",
       "lat": 28.61,
       "lng": 77.21,
-      "u": 71650,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +379,7 @@
       "n": "Additional Financing to Strengthen Djibouti’s Regional Economic Corridor",
       "lat": 20,
       "lng": 0,
-      "u": 72500,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +409,7 @@
       "n": "Mauritania Launches Landmark Program to Expand Quality Education and Opportunities for Every Child",
       "lat": 20,
       "lng": 0,
-      "u": 73350,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -373,66 +433,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-510e176f1abf",
-      "n": "World Bank Group Supports Chad's Efforts to Improve Access to Water and Strengthen People's Adaptation to Climate Change",
-      "lat": 1.5,
-      "lng": 20,
-      "u": 74200,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Chad",
-      "sector": "Human Capital For Growth",
-      "form": "Official financing / program approval",
-      "amount": "$160 million",
-      "category": "World Bank Group -> Chad",
-      "date": "2026-06-18 09:54 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Africa",
-      "summary": "The World Bank has approved a $160 million grant from the International Development Association (IDA) to improve water security and strengthen people's adaptation to climate change in targeted provinces across the country.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/18/banque-mondiale-soutient-efforts-tchad-ameliorer-acces-eau-et-renforcer-adaptation-popupulations-changement-climatique",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-9731ba95642b",
-      "n": "Enhanced Rural Infrastructure in Uzbekistan to Improve Living Standards for 1.2 Million People and Expand Access to Jobs",
-      "lat": 41.31,
-      "lng": 69.24,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Uzbekistan",
-      "sector": "Infrastructure",
-      "form": "Official financing / program approval",
-      "amount": "$150 million",
-      "category": "World Bank Group -> Uzbekistan",
-      "date": "2026-06-17 11:05 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "The World Bank’s Board of Executive Directors today approved $150 million in concessional financing from the World Bank’s International Development Association (IDA) to help Uzbekistan implement the Second Phase of the Rural Infrastructure Development Program.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/17/uzbekistan-second-phase-of-the-rural-infrastructure-development-program",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -445,8 +445,21 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Cabo Verde,Guinea,Cote-dIvoire live signal",
+      "label": "World Bank Group -> Benin,Cote-dIvoire,Togo live signal",
       "intensity": 0.78,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Cabo Verde,Guinea,Cote-dIvoire live signal",
+      "intensity": 0.77,
       "isLiveSignal": true
     },
     {
@@ -459,7 +472,20 @@
         "lng": 13.23
       },
       "label": "World Bank Group -> Angola live signal",
-      "intensity": 0.77,
+      "intensity": 0.76,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 20,
+        "lng": 0
+      },
+      "label": "World Bank Group -> Togo,Gambia live signal",
+      "intensity": 0.75,
       "isLiveSignal": true
     },
     {
@@ -472,7 +498,7 @@
         "lng": 90.41
       },
       "label": "World Bank Group -> Bangladesh live signal",
-      "intensity": 0.76,
+      "intensity": 0.74,
       "isLiveSignal": true
     },
     {
@@ -485,7 +511,7 @@
         "lng": 38.74
       },
       "label": "World Bank Group -> Ethiopia live signal",
-      "intensity": 0.75,
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -498,32 +524,6 @@
         "lng": 20
       },
       "label": "World Bank Group -> Guinea live signal",
-      "intensity": 0.74,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
-      "intensity": 0.73,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 50.45,
-        "lng": 30.52
-      },
-      "label": "World Bank Group -> Ukraine live signal",
       "intensity": 0.72,
       "isLiveSignal": true
     },
@@ -536,8 +536,34 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Sierra Leone live signal",
+      "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
       "intensity": 0.71,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 50.45,
+        "lng": 30.52
+      },
+      "label": "World Bank Group -> Ukraine live signal",
+      "intensity": 0.7000000000000001,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Sierra Leone live signal",
+      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
     {
@@ -550,7 +576,7 @@
         "lng": 20
       },
       "label": "World Bank Group -> Uganda,Tanzania,Somalia live signal",
-      "intensity": 0.7000000000000001,
+      "intensity": 0.68,
       "isLiveSignal": true
     },
     {
@@ -563,7 +589,7 @@
         "lng": 77.21
       },
       "label": "World Bank Group -> India live signal",
-      "intensity": 0.6900000000000001,
+      "intensity": 0.67,
       "isLiveSignal": true
     },
     {
@@ -576,7 +602,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Djibouti live signal",
-      "intensity": 0.68,
+      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -589,32 +615,6 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.67,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Chad live signal",
-      "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 41.31,
-        "lng": 69.24
-      },
-      "label": "World Bank Group -> Uzbekistan live signal",
       "intensity": 0.65,
       "isLiveSignal": true
     }
