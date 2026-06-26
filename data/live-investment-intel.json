@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-26T05:59:07.029Z",
-    "lastAttemptAt": "2026-06-26T05:59:07.029Z",
+    "generatedAt": "2026-06-26T09:24:25.977Z",
+    "lastAttemptAt": "2026-06-26T09:24:25.977Z",
     "status": "ok",
     "recordCount": 14,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -135,11 +135,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-cbbf605ef61e",
+      "n": "World Bank Group Endorses New Country Partnership Framework for Guinea and Investments to boost Jobs and Growth",
+      "lat": 1.5,
+      "lng": 20,
+      "u": 67400,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Guinea",
+      "sector": "Jobs And Development",
+      "form": "Official financing / program approval",
+      "amount": "$116 million",
+      "category": "World Bank Group -> Guinea",
+      "date": "2026-06-23 13:53 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Africa",
+      "summary": "The World Bank Group today endorsed a new Country Partnership Framework (CPF) for Guinea, and approved three financing operations: $116 million for the second phase of the Commercial Agriculture Development Project, $102 million for the Skills for Innovation, Resilience and Aspirations (SIRA) Program, and $75 million for the Domestic Revenue Mobilization and Public Expenditure Management Project.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/23/world-bank-group-endorses-new-country-partnership-framework-for-guinea-and-investments-to-boost-jobs-and-growth",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-9229dbba280b",
       "n": "World Bank Supports Regional Program to Expand Renewable Energy Access and Create Jobs in West and Central Africa",
       "lat": 1.5,
       "lng": 20,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "New World Bank Development Policy Operation to Boost Ukraine’s Private Sector Financing and Attract Skilled Labor to Jobs",
       "lat": 50.45,
       "lng": 30.52,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "World Bank Approves $40 Million to Boost Agricultural Value Chains and Job Creation in Sierra Leone",
       "lat": 1.5,
       "lng": 20,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +259,7 @@
       "n": "Eastern Africa Set to Gain More Reliable, Affordable Power with World Bank Group Support",
       "lat": 1.5,
       "lng": 20,
-      "u": 69950,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +289,7 @@
       "n": "World Bank Group Provides New Financing in Support of India’s Reform Program to Boost Growth and Jobs",
       "lat": 28.61,
       "lng": 77.21,
-      "u": 70800,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +319,7 @@
       "n": "Additional Financing to Strengthen Djibouti’s Regional Economic Corridor",
       "lat": 20,
       "lng": 0,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "Mauritania Launches Landmark Program to Expand Quality Education and Opportunities for Every Child",
       "lat": 20,
       "lng": 0,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +379,7 @@
       "n": "World Bank Group Supports Chad's Efforts to Improve Access to Water and Strengthen People's Adaptation to Climate Change",
       "lat": 1.5,
       "lng": 20,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -379,7 +409,7 @@
       "n": "Enhanced Rural Infrastructure in Uzbekistan to Improve Living Standards for 1.2 Million People and Expand Access to Jobs",
       "lat": 41.31,
       "lng": 69.24,
-      "u": 74200,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -398,36 +428,6 @@
       "bloc": "Europe and Central Asia",
       "summary": "The World Bank’s Board of Executive Directors today approved $150 million in concessional financing from the World Bank’s International Development Association (IDA) to help Uzbekistan implement the Second Phase of the Rural Infrastructure Development Program.",
       "url": "https://www.worldbank.org/en/news/press-release/2026/06/17/uzbekistan-second-phase-of-the-rural-infrastructure-development-program",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-242a464084be",
-      "n": "Malawi: Unlocking Private Investment, Jobs, and Foreign Exchange Through Reforms",
-      "lat": 1.5,
-      "lng": 20,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Malawi",
-      "sector": "Economic Growth",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Malawi",
-      "date": "2026-06-17 09:16 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Africa",
-      "summary": "See how targeted reforms in mining, tourism, and mango production could unlock 100,000 jobs, expand exports, and attract new private investment in Malawi.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/17/malawi-unlocking-private-investment-jobs-and-foreign-exchange-through-reforms",
       "globe": true,
       "live": true,
       "isLiveSignal": true,
@@ -497,8 +497,21 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
+      "label": "World Bank Group -> Guinea live signal",
       "intensity": 0.74,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -511,19 +524,6 @@
         "lng": 30.52
       },
       "label": "World Bank Group -> Ukraine live signal",
-      "intensity": 0.73,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Sierra Leone live signal",
       "intensity": 0.72,
       "isLiveSignal": true
     },
@@ -536,8 +536,21 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Uganda,Tanzania,Somalia live signal",
+      "label": "World Bank Group -> Sierra Leone live signal",
       "intensity": 0.71,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Uganda,Tanzania,Somalia live signal",
+      "intensity": 0.7000000000000001,
       "isLiveSignal": true
     },
     {
@@ -550,19 +563,6 @@
         "lng": 77.21
       },
       "label": "World Bank Group -> India live signal",
-      "intensity": 0.7000000000000001,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 20,
-        "lng": 0
-      },
-      "label": "World Bank Group -> Djibouti live signal",
       "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
@@ -575,8 +575,21 @@
         "lat": 20,
         "lng": 0
       },
-      "label": "World Bank Group -> Global live signal",
+      "label": "World Bank Group -> Djibouti live signal",
       "intensity": 0.68,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 20,
+        "lng": 0
+      },
+      "label": "World Bank Group -> Global live signal",
+      "intensity": 0.67,
       "isLiveSignal": true
     },
     {
@@ -589,7 +602,7 @@
         "lng": 20
       },
       "label": "World Bank Group -> Chad live signal",
-      "intensity": 0.67,
+      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -602,19 +615,6 @@
         "lng": 69.24
       },
       "label": "World Bank Group -> Uzbekistan live signal",
-      "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Malawi live signal",
       "intensity": 0.65,
       "isLiveSignal": true
     }
