@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-29T03:32:08.680Z",
-    "lastAttemptAt": "2026-06-29T03:32:08.680Z",
+    "generatedAt": "2026-06-29T08:46:49.454Z",
+    "lastAttemptAt": "2026-06-29T08:46:49.454Z",
     "status": "ok",
-    "recordCount": 14,
+    "recordCount": 13,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -403,36 +403,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-b7ac1eea14cb",
-      "n": "World Bank Group Provides New Financing in Support of India’s Reform Program to Boost Growth and Jobs",
-      "lat": 28.61,
-      "lng": 77.21,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "India",
-      "sector": "Jobs And Development",
-      "form": "Official financing / program approval",
-      "amount": "$1.5 billion",
-      "category": "World Bank Group -> India",
-      "date": "2026-06-18 14:40 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "South Asia",
-      "summary": "The World Bank’s Board of Executive Directors today approved $1.5 billion in financing to support India’s structural reforms to boost private sector-led job creation and economic growth under the Boosting Job Creation in the Private Sector Development Policy Financing (DPF) Operation.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/18/world-bank-group-provides-new-financing-in-support-of-india-s-reform-program-to-boost-growth-and-jobs",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -603,19 +573,6 @@
       },
       "label": "World Bank Group -> Uganda,Tanzania,Somalia live signal",
       "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 28.61,
-        "lng": 77.21
-      },
-      "label": "World Bank Group -> India live signal",
-      "intensity": 0.65,
       "isLiveSignal": true
     }
   ],
