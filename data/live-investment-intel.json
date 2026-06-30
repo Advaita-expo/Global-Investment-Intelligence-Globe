@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-30T10:22:10.996Z",
-    "lastAttemptAt": "2026-06-30T10:22:10.996Z",
+    "generatedAt": "2026-06-30T12:27:07.397Z",
+    "lastAttemptAt": "2026-06-30T12:27:07.397Z",
     "status": "ok",
-    "recordCount": 16,
+    "recordCount": 15,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -463,36 +463,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-1a4ff1b22572",
-      "n": "New World Bank Development Policy Operation to Boost Ukraine’s Private Sector Financing and Attract Skilled Labor to Jobs",
-      "lat": 50.45,
-      "lng": 30.52,
-      "u": 76750,
-      "t": "development",
-      "tier": 1,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Ukraine",
-      "sector": "Jobs And Development",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Ukraine",
-      "date": "2026-06-22 17:18 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "The World Bank’s Board of Executive Directors today approved the First Ukraine Jobs and Private Sector Growth Development Policy Operation (DPO) to support the Government of Ukraine’s reform agenda.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/22/first-ukraine-jobs-and-private-sector-growth-development-policy-operation",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -690,29 +660,9 @@
       "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
       "intensity": 0.64,
       "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 50.45,
-        "lng": 30.52
-      },
-      "label": "World Bank Group -> Ukraine live signal",
-      "intensity": 0.63,
-      "isLiveSignal": true
     }
   ],
   "hotspots": [
-    {
-      "n": "Ukraine live investment news cluster",
-      "lat": 50.45,
-      "lng": 30.52,
-      "strength": 0.61,
-      "isLiveSignal": true
-    },
     {
       "n": "Bangladesh live investment news cluster",
       "lat": 23.81,
