@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-06-30T17:20:17.577Z",
-    "lastAttemptAt": "2026-06-30T17:20:17.577Z",
+    "generatedAt": "2026-06-30T19:13:46.895Z",
+    "lastAttemptAt": "2026-06-30T19:13:46.895Z",
     "status": "ok",
     "recordCount": 15,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -15,11 +15,41 @@
   },
   "records": [
     {
+      "id": "wb-e8aa309f48fe",
+      "n": "Advancing Energy Security and Jobs Through the Transformative Rogun Hydropower Project",
+      "lat": 43.2,
+      "lng": 55,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Tajikistan",
+      "sector": "Hydropower",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Tajikistan",
+      "date": "2026-06-30 12:20 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Europe and Central Asia",
+      "summary": "The second phase of World Bank financing for the Rogun Hydropower Plant will support civil works, electromechanical equipment for power generation, and implementation support.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/06/30/advancing-energy-security-and-jobs-through-the-transformative-rogun-hydropower-project",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-49c2632c5a98",
       "n": "New World Bank Group Support Will Help Mobilize Investment for Ukraine's Recovery",
       "lat": 50.45,
       "lng": 30.52,
-      "u": 64000,
+      "u": 64850,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -49,7 +79,7 @@
       "n": "World Bank Supports Kenya’s Push for Stronger Accountability and Social Protection",
       "lat": -1.29,
       "lng": 36.82,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -79,7 +109,7 @@
       "n": "Kyrgyz Republic to Accelerate Reforms and Job Creation with Innovative World Bank Group Financing",
       "lat": 42.87,
       "lng": 74.59,
-      "u": 65700,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +139,7 @@
       "n": "World Bank Group Opens Office in Madrid, Expanding Partnership on Jobs and Private Capital Mobilization for Development",
       "lat": 20,
       "lng": 0,
-      "u": 66550,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +169,7 @@
       "n": "MENA, Afghanistan and Pakistan: Targeted Policies and Strategic Investments Can Boost Food Security, Improve Nutrition, and Create Millions of Jobs",
       "lat": 29.3,
       "lng": 31.2,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "BANGLADESH: World Bank Provides $1.1 Billion Emergency Support to Safeguard Food Security, Livelihoods",
       "lat": 23.81,
       "lng": 90.41,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "Strengthening Grid Reliability and Industrial Energy Efficiency",
       "lat": 11.56,
       "lng": 104.93,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +259,7 @@
       "n": "World Bank Scales Up Support to Boost Jobs and Resilience in Northern Gulf of Guinea",
       "lat": 1.5,
       "lng": 20,
-      "u": 69950,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +289,7 @@
       "n": "SIRA: New Regional Drive to Equip Youth with Skills and Jobs in Cabo Verde, Cote d’Ivoire and Guinea",
       "lat": 1.5,
       "lng": 20,
-      "u": 70800,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +319,7 @@
       "n": "Angola's AgriConnect Compact Targets Food Security, Jobs, and Agricultural Growth",
       "lat": -8.84,
       "lng": 13.23,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "Expanding Electricity Access and Job Creation in Togo and The Gambia",
       "lat": 20,
       "lng": 0,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +379,7 @@
       "n": "World Bank Helps Bangladesh Strengthen Its Banking Sector",
       "lat": 23.81,
       "lng": 90.41,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -379,7 +409,7 @@
       "n": "World Bank Group Launches New Strategy to Support Ethiopia to Build Strong Foundations for More and Better Jobs",
       "lat": 9.03,
       "lng": 38.74,
-      "u": 74200,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -409,9 +439,9 @@
       "n": "World Bank Group Endorses New Country Partnership Framework for Guinea and Investments to boost Jobs and Growth",
       "lat": 1.5,
       "lng": 20,
-      "u": 75050,
+      "u": 75900,
       "t": "development",
-      "tier": 0,
+      "tier": 1,
       "status": "Live Official Development Finance Signal",
       "investor": "World Bank Group",
       "recipient": "Guinea",
@@ -433,39 +463,22 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-9229dbba280b",
-      "n": "World Bank Supports Regional Program to Expand Renewable Energy Access and Create Jobs in West and Central Africa",
-      "lat": 1.5,
-      "lng": 20,
-      "u": 75900,
-      "t": "development",
-      "tier": 1,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Benin,Central African Republic,Liberia,Sierra Leone",
-      "sector": "Renewable Energy",
-      "form": "Official financing / program approval",
-      "amount": "$200 million",
-      "category": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone",
-      "date": "2026-06-22 19:13 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Africa",
-      "summary": "The World Bank Group today approved a $200 million financing package to help expand access to reliable, affordable, and clean electricity across Benin, the Central African Republic, Liberia, and Sierra Leone, as part of the first phase of the broader $853 million Regional Program for Distributed Access through Renewable Energy Solutions (Regional DARES). The operation will accelerate electrification through distributed renewable energy solutions —such as solar home systems, mini-grids, and other off-grid technologies— targeting underserved rural and remote communities across the four countries.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/22/world-bank-supports-regional-program-to-expand-renewable-energy-access-and-create-jobs-in-west-and-central-africa",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 43.2,
+        "lng": 55
+      },
+      "label": "World Bank Group -> Tajikistan live signal",
+      "intensity": 0.78,
+      "isLiveSignal": true
+    },
     {
       "from": {
         "lat": 38.9,
@@ -476,7 +489,7 @@
         "lng": 30.52
       },
       "label": "World Bank Group -> Ukraine live signal",
-      "intensity": 0.78,
+      "intensity": 0.77,
       "isLiveSignal": true
     },
     {
@@ -489,7 +502,7 @@
         "lng": 36.82
       },
       "label": "World Bank Group -> Kenya live signal",
-      "intensity": 0.77,
+      "intensity": 0.76,
       "isLiveSignal": true
     },
     {
@@ -502,7 +515,7 @@
         "lng": 74.59
       },
       "label": "World Bank Group -> Kyrgyz Republic live signal",
-      "intensity": 0.76,
+      "intensity": 0.75,
       "isLiveSignal": true
     },
     {
@@ -515,7 +528,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.75,
+      "intensity": 0.74,
       "isLiveSignal": true
     },
     {
@@ -528,7 +541,7 @@
         "lng": 31.2
       },
       "label": "World Bank Group -> Middle East and North Africa live signal",
-      "intensity": 0.74,
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -541,7 +554,7 @@
         "lng": 90.41
       },
       "label": "World Bank Group -> Bangladesh live signal",
-      "intensity": 0.73,
+      "intensity": 0.72,
       "isLiveSignal": true
     },
     {
@@ -554,19 +567,6 @@
         "lng": 104.93
       },
       "label": "World Bank Group -> Cambodia live signal",
-      "intensity": 0.72,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Benin,Cote-dIvoire,Togo live signal",
       "intensity": 0.71,
       "isLiveSignal": true
     },
@@ -579,8 +579,21 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Cabo Verde,Guinea,Cote-dIvoire live signal",
+      "label": "World Bank Group -> Benin,Cote-dIvoire,Togo live signal",
       "intensity": 0.7000000000000001,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Cabo Verde,Guinea,Cote-dIvoire live signal",
+      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
     {
@@ -593,7 +606,7 @@
         "lng": 13.23
       },
       "label": "World Bank Group -> Angola live signal",
-      "intensity": 0.6900000000000001,
+      "intensity": 0.68,
       "isLiveSignal": true
     },
     {
@@ -606,7 +619,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Togo,Gambia live signal",
-      "intensity": 0.68,
+      "intensity": 0.67,
       "isLiveSignal": true
     },
     {
@@ -619,7 +632,7 @@
         "lng": 90.41
       },
       "label": "World Bank Group -> Bangladesh live signal",
-      "intensity": 0.67,
+      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -632,19 +645,6 @@
         "lng": 38.74
       },
       "label": "World Bank Group -> Ethiopia live signal",
-      "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 1.5,
-        "lng": 20
-      },
-      "label": "World Bank Group -> Guinea live signal",
       "intensity": 0.65,
       "isLiveSignal": true
     },
@@ -657,7 +657,7 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Benin,Central African Republic,Liberia,Sierra Leone live signal",
+      "label": "World Bank Group -> Guinea live signal",
       "intensity": 0.64,
       "isLiveSignal": true
     }
