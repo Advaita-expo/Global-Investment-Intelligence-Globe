@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-01T20:20:09.886Z",
-    "lastAttemptAt": "2026-07-01T20:20:09.886Z",
+    "generatedAt": "2026-07-01T21:55:42.788Z",
+    "lastAttemptAt": "2026-07-01T21:55:42.788Z",
     "status": "ok",
-    "recordCount": 16,
+    "recordCount": 15,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -463,36 +463,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-a95ce147f512",
-      "n": "BANGLADESH: World Bank Provides $1.1 Billion Emergency Support to Safeguard Food Security, Livelihoods",
-      "lat": 23.81,
-      "lng": 90.41,
-      "u": 76750,
-      "t": "development",
-      "tier": 1,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Bangladesh",
-      "sector": "Agriculture And Food Security",
-      "form": "Official financing / program approval",
-      "amount": "$1.1 Billion",
-      "category": "World Bank Group -> Bangladesh",
-      "date": "2026-06-26 18:00 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "South Asia",
-      "summary": "WASHINGTON, June 26, 2026 — The World Bank approved $1.1 billion for two projects to help Bangladesh mitigate the price and supply volatility in the global fertilizer and fuel markets, sustain food security, and enable rapid response.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/26/bangladesh-world-bank-provides-1-1-billion-emergency-support-to-safeguard-food-security-livelihoods",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -689,19 +659,6 @@
       },
       "label": "World Bank Group -> Middle East and North Africa live signal",
       "intensity": 0.64,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 23.81,
-        "lng": 90.41
-      },
-      "label": "World Bank Group -> Bangladesh live signal",
-      "intensity": 0.63,
       "isLiveSignal": true
     }
   ],
