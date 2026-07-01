@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-01T21:55:42.788Z",
-    "lastAttemptAt": "2026-07-01T21:55:42.788Z",
+    "generatedAt": "2026-07-01T23:01:48.094Z",
+    "lastAttemptAt": "2026-07-01T23:01:48.094Z",
     "status": "ok",
-    "recordCount": 15,
+    "recordCount": 14,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -45,11 +45,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-2e42b2a849e1",
+      "n": "World Bank Group and Morocco Partner to Unlock the Power of Next-Generation Hydropower",
+      "lat": 34.02,
+      "lng": -6.84,
+      "u": 64850,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Morocco",
+      "sector": "Hydropower",
+      "form": "Official financing / program approval",
+      "amount": "$265 million",
+      "category": "World Bank Group -> Morocco",
+      "date": "2026-07-01 10:56 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Middle East and North Africa",
+      "summary": "The World Bank Board of Directors today approved $265 million to support the Ifahsa Pumped Hydropower Storage Project in Morocco, a major clean energy infrastructure investment in northern Morocco and one of the most significant of its kind on the African continent.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/07/01/world-bank-group-and-morocco-partner-to-unlock-the-power-of-next-generation-hydropower",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-142e52a89ed4",
       "n": "Tajikistan Invests in Water Conservation and Energy Efficiency with World Bank Support",
       "lat": 43.2,
       "lng": 55,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -79,7 +109,7 @@
       "n": "Tajikistan Accelerates Economic Reforms with World Bank Support",
       "lat": 43.2,
       "lng": 55,
-      "u": 65700,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +139,7 @@
       "n": "Ariel Yépez appointed World Bank Director for Bolivia, Chile, Colombia, Ecuador, Peru, and Venezuela",
       "lat": 20,
       "lng": 0,
-      "u": 66550,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +169,7 @@
       "n": "World Bank Approves US$700 Million in Financing to Boost Private Investment and Jobs in Jordan",
       "lat": 31.95,
       "lng": 35.93,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "Advancing Energy Security and Jobs Through the Transformative Rogun Hydropower Project",
       "lat": 43.2,
       "lng": 55,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "Pakistan: New Support for Punjab's Digital Transformation will Help Expand Broadband Access and Improve Service Delivery",
       "lat": 20,
       "lng": 0,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +259,7 @@
       "n": "Uzbekistan to Improve the Quality of Primary Education for 2 Million Children and Future Jobs Access with World Bank Support",
       "lat": 41.31,
       "lng": 69.24,
-      "u": 69950,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +289,7 @@
       "n": "World Bank Provides Additional Financing to Support Earthquake Recovery and Resilient Housing in Türkiye",
       "lat": 20,
       "lng": 0,
-      "u": 70800,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +319,7 @@
       "n": "New World Bank Group Support Will Help Mobilize Investment for Ukraine's Recovery",
       "lat": 50.45,
       "lng": 30.52,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "World Bank Supports Kenya’s Push for Stronger Accountability and Social Protection",
       "lat": -1.29,
       "lng": 36.82,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +379,7 @@
       "n": "Kyrgyz Republic to Accelerate Reforms and Job Creation with Innovative World Bank Group Financing",
       "lat": 42.87,
       "lng": 74.59,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -379,7 +409,7 @@
       "n": "World Bank Launches New Country Partnership Framework for Nigeria and Financing to Accelerate Investment and Job Creation",
       "lat": 9.08,
       "lng": 8.68,
-      "u": 74200,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -398,66 +428,6 @@
       "bloc": "Africa",
       "summary": "The World Bank Group has endorsed a new Country Partnership Framework (CPF) for Nigeria spanning 2026–2032, setting out a strategy to create more and better jobs at scale by unlocking private sector–led growth. As part of this broader support, the World Bank has also approved the Nigeria Actions for Investment and Jobs Acceleration (NAIJA) Development Policy Financing (DPF) operation, which supports Nigeria’s transition toward a more inclusive growth model that spurs growth and create jobs.",
       "url": "https://www.worldbank.org/en/news/press-release/2026/06/29/new-country-partnership-framework-for-nigeria-and-financing-to-accelerate-investment-and-job-creation",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-ee8ebf10c608",
-      "n": "World Bank Group Opens Office in Madrid, Expanding Partnership on Jobs and Private Capital Mobilization for Development",
-      "lat": 20,
-      "lng": 0,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Global",
-      "sector": "finance",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Global",
-      "date": "2026-06-29 09:00 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "finance",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Global",
-      "summary": "The World Bank Group today announced the opening of its office in Madrid, deepening its partnership with Spain to scale investment and mobilize private capital for growth and job creation in emerging markets.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/29/world-bank-group-opens-office-in-madrid",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-0a64f077e8de",
-      "n": "MENA, Afghanistan and Pakistan: Targeted Policies and Strategic Investments Can Boost Food Security, Improve Nutrition, and Create Millions of Jobs",
-      "lat": 29.3,
-      "lng": 31.2,
-      "u": 75900,
-      "t": "development",
-      "tier": 1,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Middle East and North Africa",
-      "sector": "Nutrition",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Middle East and North Africa",
-      "date": "2026-06-29 08:00 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Middle East and North Africa",
-      "summary": "The Middle East, North Africa, Afghanistan and Pakistan region has clear opportunities to develop stronger agriculture and food systems, improve nutrition, counter food insecurity and create jobs, according to a new World Bank Group report: Building Food Security, Creating Jobs. The report estimates that with ambitious investments and business climate reform, the region could see 5 million new jobs by 2050 — a significant contribution to addressing the region's youth employment challenge.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/29/mena-afghanistan-and-pakistan-targeted-policies-and-strategic-investments-can-boost-food-security-improve-nutrition-and-",
       "globe": true,
       "live": true,
       "isLiveSignal": true,
@@ -485,10 +455,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 43.2,
-        "lng": 55
+        "lat": 34.02,
+        "lng": -6.84
       },
-      "label": "World Bank Group -> Tajikistan live signal",
+      "label": "World Bank Group -> Morocco live signal",
       "intensity": 0.77,
       "isLiveSignal": true
     },
@@ -511,11 +481,24 @@
         "lng": -77.04
       },
       "to": {
+        "lat": 43.2,
+        "lng": 55
+      },
+      "label": "World Bank Group -> Tajikistan live signal",
+      "intensity": 0.75,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
         "lat": 20,
         "lng": 0
       },
       "label": "World Bank Group -> Bolivia,Chile,Ecuador,Colombia,Peru,Venezuela live signal",
-      "intensity": 0.75,
+      "intensity": 0.74,
       "isLiveSignal": true
     },
     {
@@ -528,7 +511,7 @@
         "lng": 35.93
       },
       "label": "World Bank Group -> Jordan live signal",
-      "intensity": 0.74,
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -541,7 +524,7 @@
         "lng": 55
       },
       "label": "World Bank Group -> Tajikistan live signal",
-      "intensity": 0.73,
+      "intensity": 0.72,
       "isLiveSignal": true
     },
     {
@@ -554,7 +537,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.72,
+      "intensity": 0.71,
       "isLiveSignal": true
     },
     {
@@ -567,7 +550,7 @@
         "lng": 69.24
       },
       "label": "World Bank Group -> Uzbekistan live signal",
-      "intensity": 0.71,
+      "intensity": 0.7000000000000001,
       "isLiveSignal": true
     },
     {
@@ -580,7 +563,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.7000000000000001,
+      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
     {
@@ -593,7 +576,7 @@
         "lng": 30.52
       },
       "label": "World Bank Group -> Ukraine live signal",
-      "intensity": 0.6900000000000001,
+      "intensity": 0.68,
       "isLiveSignal": true
     },
     {
@@ -606,7 +589,7 @@
         "lng": 36.82
       },
       "label": "World Bank Group -> Kenya live signal",
-      "intensity": 0.68,
+      "intensity": 0.67,
       "isLiveSignal": true
     },
     {
@@ -619,7 +602,7 @@
         "lng": 74.59
       },
       "label": "World Bank Group -> Kyrgyz Republic live signal",
-      "intensity": 0.67,
+      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -632,33 +615,7 @@
         "lng": 8.68
       },
       "label": "World Bank Group -> Nigeria live signal",
-      "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 20,
-        "lng": 0
-      },
-      "label": "World Bank Group -> Global live signal",
       "intensity": 0.65,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 29.3,
-        "lng": 31.2
-      },
-      "label": "World Bank Group -> Middle East and North Africa live signal",
-      "intensity": 0.64,
       "isLiveSignal": true
     }
   ],
@@ -674,7 +631,7 @@
       "n": "Global live investment news cluster",
       "lat": 20,
       "lng": 0,
-      "strength": 0.69,
+      "strength": 0.61,
       "isLiveSignal": true
     }
   ]
