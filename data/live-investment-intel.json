@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-01T07:01:20.517Z",
-    "lastAttemptAt": "2026-07-01T07:01:20.517Z",
+    "generatedAt": "2026-07-01T10:51:46.394Z",
+    "lastAttemptAt": "2026-07-01T10:51:46.394Z",
     "status": "ok",
     "recordCount": 15,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
