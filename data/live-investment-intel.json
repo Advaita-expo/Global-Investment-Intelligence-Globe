@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-02T13:13:43.512Z",
-    "lastAttemptAt": "2026-07-02T13:13:43.512Z",
+    "generatedAt": "2026-07-02T15:37:16.054Z",
+    "lastAttemptAt": "2026-07-02T15:37:16.054Z",
     "status": "ok",
-    "recordCount": 14,
+    "recordCount": 12,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -373,66 +373,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-9c2eef3ed0cf",
-      "n": "World Bank Supports Kenya’s Push for Stronger Accountability and Social Protection",
-      "lat": -1.29,
-      "lng": 36.82,
-      "u": 74200,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Kenya",
-      "sector": "infrastructure",
-      "form": "Official financing / program approval",
-      "amount": "$750 million",
-      "category": "World Bank Group -> Kenya",
-      "date": "2026-06-29 18:50 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Africa",
-      "summary": "See how a $750 million World Bank-supported DPO helps Kenya strengthen accountability, public finance, and social protection.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/30/world-bank-supports-kenyas-push-for-stronger-accountability-and-social-protection",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-c5d15c3da530",
-      "n": "Kyrgyz Republic to Accelerate Reforms and Job Creation with Innovative World Bank Group Financing",
-      "lat": 42.87,
-      "lng": 74.59,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Kyrgyz Republic",
-      "sector": "Private Sector Development",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Kyrgyz Republic",
-      "date": "2026-06-29 16:37 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "The World Bank’s Board of Executive Directors today approved the Second Sustainable and Inclusive Growth Development Policy Operation (DPO) for the Kyrgyz Republic.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/29/kyrgyz-republic-to-accelerate-reforms-and-job-creation-with-innovative-world-bank-group-financing",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -590,32 +530,6 @@
       },
       "label": "World Bank Group -> Ukraine live signal",
       "intensity": 0.67,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": -1.29,
-        "lng": 36.82
-      },
-      "label": "World Bank Group -> Kenya live signal",
-      "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 42.87,
-        "lng": 74.59
-      },
-      "label": "World Bank Group -> Kyrgyz Republic live signal",
-      "intensity": 0.65,
       "isLiveSignal": true
     }
   ],
