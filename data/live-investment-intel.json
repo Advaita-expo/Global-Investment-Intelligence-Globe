@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-02T21:39:16.985Z",
-    "lastAttemptAt": "2026-07-02T21:39:16.985Z",
+    "generatedAt": "2026-07-02T22:54:28.885Z",
+    "lastAttemptAt": "2026-07-02T22:54:28.885Z",
     "status": "ok",
-    "recordCount": 11,
+    "recordCount": 10,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -313,36 +313,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-7becde6b3112",
-      "n": "World Bank Provides Additional Financing to Support Earthquake Recovery and Resilient Housing in Türkiye",
-      "lat": 20,
-      "lng": 0,
-      "u": 72500,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Global",
-      "sector": "infrastructure",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Global",
-      "date": "2026-06-30 10:26 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Global",
-      "summary": "The World Bank today approved a €250 million additional loan to the Republic of Türkiye to scale up recovery and reconstruction efforts following the February 2023 earthquakes, with a focus on rebuilding resilient rural housing and restoring essential services.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/30/world-bank-provides-additional-financing-to-support-earthquake-recovery-and-resilient-housing-in-t-rkiye",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -475,19 +445,6 @@
       "label": "World Bank Group -> Uzbekistan live signal",
       "intensity": 0.6900000000000001,
       "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 20,
-        "lng": 0
-      },
-      "label": "World Bank Group -> Global live signal",
-      "intensity": 0.68,
-      "isLiveSignal": true
     }
   ],
   "hotspots": [
@@ -496,13 +453,6 @@
       "lat": 43.2,
       "lng": 55,
       "strength": 0.69,
-      "isLiveSignal": true
-    },
-    {
-      "n": "Global live investment news cluster",
-      "lat": 20,
-      "lng": 0,
-      "strength": 0.61,
       "isLiveSignal": true
     }
   ]
