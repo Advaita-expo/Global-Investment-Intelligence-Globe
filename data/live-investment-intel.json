@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-02T11:24:46.478Z",
-    "lastAttemptAt": "2026-07-02T11:24:46.478Z",
+    "generatedAt": "2026-07-02T13:13:43.512Z",
+    "lastAttemptAt": "2026-07-02T13:13:43.512Z",
     "status": "ok",
     "recordCount": 14,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -15,11 +15,41 @@
   },
   "records": [
     {
+      "id": "wb-11cc3c31c5d2",
+      "n": "Central African Republic: Reforming public finances to support growth",
+      "lat": 1.5,
+      "lng": 20,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Central African Republic",
+      "sector": "Inclusive-growth",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Central African Republic",
+      "date": "2026-07-02 14:16 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Africa",
+      "summary": "A new World Bank report released today calls for urgent structural reforms in the public finance sector and the mobilization of domestic resources in the Central African Republic (CAR) to consolidate macroeconomic stability and support human development, boost growth, and create the conditions for job creation.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/07/02/central-african-republic-reforming-public-finances-to-support-growth",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-86407db6924e",
       "n": "World Bank Backs Sri Lanka’s Reform Agenda with US$150 Million to Drive Growth and Resilience",
       "lat": 6.93,
       "lng": 79.86,
-      "u": 64000,
+      "u": 64850,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -49,7 +79,7 @@
       "n": "World Bank Group and Morocco Partner to Unlock the Power of Next-Generation Hydropower",
       "lat": 34.02,
       "lng": -6.84,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -79,7 +109,7 @@
       "n": "Tajikistan Invests in Water Conservation and Energy Efficiency with World Bank Support",
       "lat": 43.2,
       "lng": 55,
-      "u": 65700,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +139,7 @@
       "n": "Tajikistan Accelerates Economic Reforms with World Bank Support",
       "lat": 43.2,
       "lng": 55,
-      "u": 66550,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +169,7 @@
       "n": "Ariel Yépez appointed World Bank Director for Bolivia, Chile, Colombia, Ecuador, Peru, and Venezuela",
       "lat": 20,
       "lng": 0,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "World Bank Approves US$700 Million in Financing to Boost Private Investment and Jobs in Jordan",
       "lat": 31.95,
       "lng": 35.93,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "Advancing Energy Security and Jobs Through the Transformative Rogun Hydropower Project",
       "lat": 43.2,
       "lng": 55,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -229,7 +259,7 @@
       "n": "Pakistan: New Support for Punjab's Digital Transformation will Help Expand Broadband Access and Improve Service Delivery",
       "lat": 20,
       "lng": 0,
-      "u": 69950,
+      "u": 70800,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -259,7 +289,7 @@
       "n": "Uzbekistan to Improve the Quality of Primary Education for 2 Million Children and Future Jobs Access with World Bank Support",
       "lat": 41.31,
       "lng": 69.24,
-      "u": 70800,
+      "u": 71650,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -289,7 +319,7 @@
       "n": "World Bank Provides Additional Financing to Support Earthquake Recovery and Resilient Housing in Türkiye",
       "lat": 20,
       "lng": 0,
-      "u": 71650,
+      "u": 72500,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -319,7 +349,7 @@
       "n": "New World Bank Group Support Will Help Mobilize Investment for Ukraine's Recovery",
       "lat": 50.45,
       "lng": 30.52,
-      "u": 72500,
+      "u": 73350,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -349,7 +379,7 @@
       "n": "World Bank Supports Kenya’s Push for Stronger Accountability and Social Protection",
       "lat": -1.29,
       "lng": 36.82,
-      "u": 73350,
+      "u": 74200,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -379,7 +409,7 @@
       "n": "Kyrgyz Republic to Accelerate Reforms and Job Creation with Innovative World Bank Group Financing",
       "lat": 42.87,
       "lng": 74.59,
-      "u": 74200,
+      "u": 75050,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -403,39 +433,22 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-9e356afc0336",
-      "n": "World Bank Launches New Country Partnership Framework for Nigeria and Financing to Accelerate Investment and Job Creation",
-      "lat": 9.08,
-      "lng": 8.68,
-      "u": 75050,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Nigeria",
-      "sector": "Economic Growth Analytics",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Nigeria",
-      "date": "2026-06-29 16:14 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Africa",
-      "summary": "The World Bank Group has endorsed a new Country Partnership Framework (CPF) for Nigeria spanning 2026–2032, setting out a strategy to create more and better jobs at scale by unlocking private sector–led growth. As part of this broader support, the World Bank has also approved the Nigeria Actions for Investment and Jobs Acceleration (NAIJA) Development Policy Financing (DPF) operation, which supports Nigeria’s transition toward a more inclusive growth model that spurs growth and create jobs.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/29/new-country-partnership-framework-for-nigeria-and-financing-to-accelerate-investment-and-job-creation",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Central African Republic live signal",
+      "intensity": 0.78,
+      "isLiveSignal": true
+    },
     {
       "from": {
         "lat": 38.9,
@@ -446,7 +459,7 @@
         "lng": 79.86
       },
       "label": "World Bank Group -> Sri Lanka live signal",
-      "intensity": 0.78,
+      "intensity": 0.77,
       "isLiveSignal": true
     },
     {
@@ -459,19 +472,6 @@
         "lng": -6.84
       },
       "label": "World Bank Group -> Morocco live signal",
-      "intensity": 0.77,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 43.2,
-        "lng": 55
-      },
-      "label": "World Bank Group -> Tajikistan live signal",
       "intensity": 0.76,
       "isLiveSignal": true
     },
@@ -494,11 +494,24 @@
         "lng": -77.04
       },
       "to": {
+        "lat": 43.2,
+        "lng": 55
+      },
+      "label": "World Bank Group -> Tajikistan live signal",
+      "intensity": 0.74,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
         "lat": 20,
         "lng": 0
       },
       "label": "World Bank Group -> Bolivia,Chile,Ecuador,Colombia,Peru,Venezuela live signal",
-      "intensity": 0.74,
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -511,7 +524,7 @@
         "lng": 35.93
       },
       "label": "World Bank Group -> Jordan live signal",
-      "intensity": 0.73,
+      "intensity": 0.72,
       "isLiveSignal": true
     },
     {
@@ -524,7 +537,7 @@
         "lng": 55
       },
       "label": "World Bank Group -> Tajikistan live signal",
-      "intensity": 0.72,
+      "intensity": 0.71,
       "isLiveSignal": true
     },
     {
@@ -537,7 +550,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.71,
+      "intensity": 0.7000000000000001,
       "isLiveSignal": true
     },
     {
@@ -550,7 +563,7 @@
         "lng": 69.24
       },
       "label": "World Bank Group -> Uzbekistan live signal",
-      "intensity": 0.7000000000000001,
+      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     },
     {
@@ -563,7 +576,7 @@
         "lng": 0
       },
       "label": "World Bank Group -> Global live signal",
-      "intensity": 0.6900000000000001,
+      "intensity": 0.68,
       "isLiveSignal": true
     },
     {
@@ -576,7 +589,7 @@
         "lng": 30.52
       },
       "label": "World Bank Group -> Ukraine live signal",
-      "intensity": 0.68,
+      "intensity": 0.67,
       "isLiveSignal": true
     },
     {
@@ -589,7 +602,7 @@
         "lng": 36.82
       },
       "label": "World Bank Group -> Kenya live signal",
-      "intensity": 0.67,
+      "intensity": 0.66,
       "isLiveSignal": true
     },
     {
@@ -602,19 +615,6 @@
         "lng": 74.59
       },
       "label": "World Bank Group -> Kyrgyz Republic live signal",
-      "intensity": 0.66,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 9.08,
-        "lng": 8.68
-      },
-      "label": "World Bank Group -> Nigeria live signal",
       "intensity": 0.65,
       "isLiveSignal": true
     }
