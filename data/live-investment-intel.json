@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-02T15:37:16.054Z",
-    "lastAttemptAt": "2026-07-02T15:37:16.054Z",
+    "generatedAt": "2026-07-02T17:23:41.634Z",
+    "lastAttemptAt": "2026-07-02T17:23:41.634Z",
     "status": "ok",
-    "recordCount": 12,
+    "recordCount": 11,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -343,36 +343,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-49c2632c5a98",
-      "n": "New World Bank Group Support Will Help Mobilize Investment for Ukraine's Recovery",
-      "lat": 50.45,
-      "lng": 30.52,
-      "u": 73350,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Ukraine",
-      "sector": "Energy And Extractives",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Ukraine",
-      "date": "2026-06-29 21:40 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "World Bank Group announces billions in new financing and partnerships at the Ukraine Recovery Conference 2026 to support Ukraine's recovery and reconstruction.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/29/new-world-bank-group-support-will-help-mobilize-investment-for-ukraine-recovery",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -517,19 +487,6 @@
       },
       "label": "World Bank Group -> Global live signal",
       "intensity": 0.68,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 50.45,
-        "lng": 30.52
-      },
-      "label": "World Bank Group -> Ukraine live signal",
-      "intensity": 0.67,
       "isLiveSignal": true
     }
   ],
