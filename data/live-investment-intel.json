@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-06T01:55:24.514Z",
-    "lastAttemptAt": "2026-07-06T01:55:24.514Z",
+    "generatedAt": "2026-07-06T06:16:55.119Z",
+    "lastAttemptAt": "2026-07-06T06:16:55.119Z",
     "status": "ok",
-    "recordCount": 10,
+    "recordCount": 8,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -253,66 +253,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-aefb693b55a0",
-      "n": "Pakistan: New Support for Punjab's Digital Transformation will Help Expand Broadband Access and Improve Service Delivery",
-      "lat": 20,
-      "lng": 0,
-      "u": 70800,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Global",
-      "sector": "infrastructure",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Global",
-      "date": "2026-06-30 10:37 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Global",
-      "summary": "Press release for World Bank's Connected Punjab project",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/30/pakistan-new-support-for-punjab-s-digital-transformation-will-help-expand-broadband-access-and-improve-service-delivery",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-f48ae42bbbff",
-      "n": "Uzbekistan to Improve the Quality of Primary Education for 2 Million Children and Future Jobs Access with World Bank Support",
-      "lat": 41.31,
-      "lng": 69.24,
-      "u": 71650,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Uzbekistan",
-      "sector": "Education",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Uzbekistan",
-      "date": "2026-06-30 10:36 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "The World Bank approved financial support for the Government of Uzbekistan to improve learning outcomes in primary schools across six regions and to help students acquire the foundational skills needed to access more productive and better-paid jobs in adulthood.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/30/uzbekistan-to-improve-the-quality-of-primary-education-for-2-million-children-and-future-jobs-access",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -418,32 +358,6 @@
       },
       "label": "World Bank Group -> Tajikistan live signal",
       "intensity": 0.71,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 20,
-        "lng": 0
-      },
-      "label": "World Bank Group -> Global live signal",
-      "intensity": 0.7000000000000001,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 41.31,
-        "lng": 69.24
-      },
-      "label": "World Bank Group -> Uzbekistan live signal",
-      "intensity": 0.6900000000000001,
       "isLiveSignal": true
     }
   ],
