@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-07T21:05:57.183Z",
-    "lastAttemptAt": "2026-07-07T21:05:57.183Z",
+    "generatedAt": "2026-07-07T22:34:14.607Z",
+    "lastAttemptAt": "2026-07-07T22:34:14.607Z",
     "status": "ok",
-    "recordCount": 7,
+    "recordCount": 8,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -15,11 +15,41 @@
   },
   "records": [
     {
+      "id": "wb-75a2fc380cde",
+      "n": "IFC Launches Standout $2 Billion 5-Year USD Green Benchmark Bond",
+      "lat": 20,
+      "lng": 0,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Global",
+      "sector": "infrastructure",
+      "form": "Official financing / program approval",
+      "amount": "$2 Billion",
+      "category": "World Bank Group -> Global",
+      "date": "2026-07-07 16:39 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Global",
+      "summary": "IFC Launches Standout $2 Billion 5-Year USD Green Benchmark Bond",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/07/07/ifc-launches-standout-2-billion-5-year-usd-green-benchmark-bond",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-99e26bc5182d",
       "n": "Madagascar to Boost Urban Resilience and Jobs in Antananarivo and Toamasina",
       "lat": 1.5,
       "lng": 20,
-      "u": 64000,
+      "u": 64850,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -49,7 +79,7 @@
       "n": "Central African Republic: Reforming public finances to support growth",
       "lat": 1.5,
       "lng": 20,
-      "u": 64850,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -79,7 +109,7 @@
       "n": "World Bank Backs Sri Lanka’s Reform Agenda with US$150 Million to Drive Growth and Resilience",
       "lat": 6.93,
       "lng": 79.86,
-      "u": 65700,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +139,7 @@
       "n": "World Bank Group and Morocco Partner to Unlock the Power of Next-Generation Hydropower",
       "lat": 34.02,
       "lng": -6.84,
-      "u": 66550,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +169,7 @@
       "n": "Tajikistan Invests in Water Conservation and Energy Efficiency with World Bank Support",
       "lat": 43.2,
       "lng": 55,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "Tajikistan Accelerates Economic Reforms with World Bank Support",
       "lat": 43.2,
       "lng": 55,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "Ariel Yépez appointed World Bank Director for Bolivia, Chile, Colombia, Ecuador, Peru, and Venezuela",
       "lat": 20,
       "lng": 0,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -232,10 +262,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 1.5,
-        "lng": 20
+        "lat": 20,
+        "lng": 0
       },
-      "label": "World Bank Group -> Madagascar live signal",
+      "label": "World Bank Group -> Global live signal",
       "intensity": 0.78,
       "isLiveSignal": true
     },
@@ -248,8 +278,21 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Central African Republic live signal",
+      "label": "World Bank Group -> Madagascar live signal",
       "intensity": 0.77,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Central African Republic live signal",
+      "intensity": 0.76,
       "isLiveSignal": true
     },
     {
@@ -262,7 +305,7 @@
         "lng": 79.86
       },
       "label": "World Bank Group -> Sri Lanka live signal",
-      "intensity": 0.76,
+      "intensity": 0.75,
       "isLiveSignal": true
     },
     {
@@ -275,19 +318,6 @@
         "lng": -6.84
       },
       "label": "World Bank Group -> Morocco live signal",
-      "intensity": 0.75,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 43.2,
-        "lng": 55
-      },
-      "label": "World Bank Group -> Tajikistan live signal",
       "intensity": 0.74,
       "isLiveSignal": true
     },
@@ -310,11 +340,24 @@
         "lng": -77.04
       },
       "to": {
+        "lat": 43.2,
+        "lng": 55
+      },
+      "label": "World Bank Group -> Tajikistan live signal",
+      "intensity": 0.72,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
         "lat": 20,
         "lng": 0
       },
       "label": "World Bank Group -> Bolivia,Chile,Ecuador,Colombia,Peru,Venezuela live signal",
-      "intensity": 0.72,
+      "intensity": 0.71,
       "isLiveSignal": true
     }
   ],
