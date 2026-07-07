@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-07T19:30:07.254Z",
-    "lastAttemptAt": "2026-07-07T19:30:07.254Z",
+    "generatedAt": "2026-07-07T21:05:57.183Z",
+    "lastAttemptAt": "2026-07-07T21:05:57.183Z",
     "status": "ok",
-    "recordCount": 8,
+    "recordCount": 7,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -223,36 +223,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-b59f2cf002fb",
-      "n": "World Bank Approves US$700 Million in Financing to Boost Private Investment and Jobs in Jordan",
-      "lat": 31.95,
-      "lng": 35.93,
-      "u": 69950,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Jordan",
-      "sector": "Private Sector Development",
-      "form": "Official financing / program approval",
-      "amount": "US$700 Million",
-      "category": "World Bank Group -> Jordan",
-      "date": "2026-06-30 14:18 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Middle East and North Africa",
-      "summary": "Jordan has maintained macroeconomic stability despite a challenging regional environment, recording real GDP growth of 2.8 percent in 2025 and receiving in 2024 its first sovereign credit rating upgrade in over two decades, sustained again in 2025. The opportunity now is to convert this economic stability into investment and jobs, accelerate growth and expand economic opportunities for all Jordanians.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/30/world-bank-approves-us-700-million-in-financing-to-boost-private-investment-and-jobs-in-jordan",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -345,19 +315,6 @@
       },
       "label": "World Bank Group -> Bolivia,Chile,Ecuador,Colombia,Peru,Venezuela live signal",
       "intensity": 0.72,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 31.95,
-        "lng": 35.93
-      },
-      "label": "World Bank Group -> Jordan live signal",
-      "intensity": 0.71,
       "isLiveSignal": true
     }
   ],
