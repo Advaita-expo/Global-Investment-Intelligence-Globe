@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-07T02:08:55.373Z",
-    "lastAttemptAt": "2026-07-07T02:08:55.373Z",
+    "generatedAt": "2026-07-07T06:27:16.624Z",
+    "lastAttemptAt": "2026-07-07T06:27:16.624Z",
     "status": "ok",
-    "recordCount": 9,
+    "recordCount": 8,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -253,36 +253,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-e8aa309f48fe",
-      "n": "Advancing Energy Security and Jobs Through the Transformative Rogun Hydropower Project",
-      "lat": 43.2,
-      "lng": 55,
-      "u": 70800,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Tajikistan",
-      "sector": "Hydropower",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Tajikistan",
-      "date": "2026-06-30 12:20 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "The second phase of World Bank financing for the Rogun Hydropower Plant will support civil works, electromechanical equipment for power generation, and implementation support.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/30/advancing-energy-security-and-jobs-through-the-transformative-rogun-hydropower-project",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -389,19 +359,6 @@
       "label": "World Bank Group -> Jordan live signal",
       "intensity": 0.71,
       "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 43.2,
-        "lng": 55
-      },
-      "label": "World Bank Group -> Tajikistan live signal",
-      "intensity": 0.7000000000000001,
-      "isLiveSignal": true
     }
   ],
   "hotspots": [
@@ -409,7 +366,7 @@
       "n": "Tajikistan live investment news cluster",
       "lat": 43.2,
       "lng": 55,
-      "strength": 0.69,
+      "strength": 0.61,
       "isLiveSignal": true
     }
   ]
