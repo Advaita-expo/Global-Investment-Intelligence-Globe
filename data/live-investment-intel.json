@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-08T13:24:50.644Z",
-    "lastAttemptAt": "2026-07-08T13:24:50.644Z",
+    "generatedAt": "2026-07-08T15:39:06.169Z",
+    "lastAttemptAt": "2026-07-08T15:39:06.169Z",
     "status": "ok",
     "recordCount": 8,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -75,11 +75,41 @@
       "sourceCountry": "World Bank Group"
     },
     {
+      "id": "wb-7d19c1ef4b54",
+      "n": "World Bank Approves Financing for Resilient Infrastructure and Basic Services to Boost Employment in Salta",
+      "lat": 20,
+      "lng": 0,
+      "u": 65700,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Global",
+      "sector": "infrastructure",
+      "form": "Official financing / program approval",
+      "amount": "US$100 million",
+      "category": "World Bank Group -> Global",
+      "date": "2026-07-06 10:41 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Global",
+      "summary": "The World Bank’s Board of Executive Directors approved the “Resilient Infrastructure for Regional Economic Development and Job Creation in Salta” project, a US$100 million operation aimed at improving connectivity, strengthening logistics infrastructure, expanding access to water and sanitation services, and modernizing mining sector management in the province.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/07/07/banco-mundial-aprueba-financiamiento-para-infraestructura-resiliente-y-servicios-b-sicos-que-impulsar-n-el-empleo-en-sal",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-11cc3c31c5d2",
       "n": "Central African Republic: Reforming public finances to support growth",
       "lat": 1.5,
       "lng": 20,
-      "u": 65700,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +139,7 @@
       "n": "World Bank Backs Sri Lanka’s Reform Agenda with US$150 Million to Drive Growth and Resilience",
       "lat": 6.93,
       "lng": 79.86,
-      "u": 66550,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +169,7 @@
       "n": "World Bank Group and Morocco Partner to Unlock the Power of Next-Generation Hydropower",
       "lat": 34.02,
       "lng": -6.84,
-      "u": 67400,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -169,7 +199,7 @@
       "n": "Tajikistan Invests in Water Conservation and Energy Efficiency with World Bank Support",
       "lat": 43.2,
       "lng": 55,
-      "u": 68250,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -199,7 +229,7 @@
       "n": "Tajikistan Accelerates Economic Reforms with World Bank Support",
       "lat": 43.2,
       "lng": 55,
-      "u": 69100,
+      "u": 69950,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -218,36 +248,6 @@
       "bloc": "Europe and Central Asia",
       "summary": "With World Bank support, Tajikistan will undertake foundational economic reforms, including in the digital, aviation, and energy sectors.",
       "url": "https://www.worldbank.org/en/news/press-release/2026/07/01/tajikistan-accelerates-economic-reforms-with-world-bank-support",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-348ea6d7e559",
-      "n": "Ariel Yépez appointed World Bank Director for Bolivia, Chile, Colombia, Ecuador, Peru, and Venezuela",
-      "lat": 20,
-      "lng": 0,
-      "u": 69950,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Bolivia,Chile,Ecuador,Colombia,Peru,Venezuela",
-      "sector": "infrastructure",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Bolivia,Chile,Ecuador,Colombia,Peru,Venezuela",
-      "date": "2026-07-01 00:00 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Global",
-      "summary": "Starting July 1, he will oversee the World Bank’s strategy and operations across six Andean countries.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/06/30/ariel-yepez-appointed-world-bank-director-for-bolivia-chile-colombia-ecuador-peru-and-venezuela",
       "globe": true,
       "live": true,
       "isLiveSignal": true,
@@ -288,11 +288,24 @@
         "lng": -77.04
       },
       "to": {
+        "lat": 20,
+        "lng": 0
+      },
+      "label": "World Bank Group -> Global live signal",
+      "intensity": 0.76,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
         "lat": 1.5,
         "lng": 20
       },
       "label": "World Bank Group -> Central African Republic live signal",
-      "intensity": 0.76,
+      "intensity": 0.75,
       "isLiveSignal": true
     },
     {
@@ -305,7 +318,7 @@
         "lng": 79.86
       },
       "label": "World Bank Group -> Sri Lanka live signal",
-      "intensity": 0.75,
+      "intensity": 0.74,
       "isLiveSignal": true
     },
     {
@@ -318,19 +331,6 @@
         "lng": -6.84
       },
       "label": "World Bank Group -> Morocco live signal",
-      "intensity": 0.74,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 43.2,
-        "lng": 55
-      },
-      "label": "World Bank Group -> Tajikistan live signal",
       "intensity": 0.73,
       "isLiveSignal": true
     },
@@ -353,15 +353,22 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 20,
-        "lng": 0
+        "lat": 43.2,
+        "lng": 55
       },
-      "label": "World Bank Group -> Bolivia,Chile,Ecuador,Colombia,Peru,Venezuela live signal",
+      "label": "World Bank Group -> Tajikistan live signal",
       "intensity": 0.71,
       "isLiveSignal": true
     }
   ],
   "hotspots": [
+    {
+      "n": "Global live investment news cluster",
+      "lat": 20,
+      "lng": 0,
+      "strength": 0.61,
+      "isLiveSignal": true
+    },
     {
       "n": "Tajikistan live investment news cluster",
       "lat": 43.2,
