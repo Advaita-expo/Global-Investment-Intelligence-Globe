@@ -1,10 +1,10 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-09T02:35:29.603Z",
-    "lastAttemptAt": "2026-07-09T02:35:29.603Z",
+    "generatedAt": "2026-07-09T06:32:14.762Z",
+    "lastAttemptAt": "2026-07-09T06:32:14.762Z",
     "status": "ok",
-    "recordCount": 8,
+    "recordCount": 7,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
     "sourcePolicy": "Live records are public official-source signals, not an exhaustive investment database. Open the source URL before using a signal as evidence.",
     "sources": [
@@ -223,36 +223,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-34c9d7c7ba77",
-      "n": "Tajikistan Accelerates Economic Reforms with World Bank Support",
-      "lat": 43.2,
-      "lng": 55,
-      "u": 69950,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Tajikistan",
-      "sector": "Transport",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Tajikistan",
-      "date": "2026-07-01 07:39 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "With World Bank support, Tajikistan will undertake foundational economic reforms, including in the digital, aviation, and energy sectors.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/07/01/tajikistan-accelerates-economic-reforms-with-world-bank-support",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -346,19 +316,6 @@
       "label": "World Bank Group -> Tajikistan live signal",
       "intensity": 0.72,
       "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 43.2,
-        "lng": 55
-      },
-      "label": "World Bank Group -> Tajikistan live signal",
-      "intensity": 0.71,
-      "isLiveSignal": true
     }
   ],
   "hotspots": [
@@ -366,13 +323,6 @@
       "n": "Global live investment news cluster",
       "lat": 20,
       "lng": 0,
-      "strength": 0.61,
-      "isLiveSignal": true
-    },
-    {
-      "n": "Tajikistan live investment news cluster",
-      "lat": 43.2,
-      "lng": 55,
       "strength": 0.61,
       "isLiveSignal": true
     }
