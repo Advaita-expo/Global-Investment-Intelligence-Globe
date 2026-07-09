@@ -1,8 +1,8 @@
 {
   "meta": {
     "feed": "Official development finance live feed",
-    "generatedAt": "2026-07-09T22:21:23.726Z",
-    "lastAttemptAt": "2026-07-09T22:21:23.726Z",
+    "generatedAt": "2026-07-09T23:41:50.872Z",
+    "lastAttemptAt": "2026-07-09T23:41:50.872Z",
     "status": "ok",
     "recordCount": 7,
     "refreshCadence": "GitHub Actions schedule: every 30 minutes plus push refresh",
@@ -15,11 +15,71 @@
   },
   "records": [
     {
+      "id": "wb-f5e1485d89cd",
+      "n": "World Bank Supports India’s Solar Rooftop Program to Boost Clean Energy, Create Jobs, and Unlock Private Capital",
+      "lat": 28.61,
+      "lng": 77.21,
+      "u": 64000,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "India",
+      "sector": "Renewable Energy",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> India",
+      "date": "2026-07-09 18:00 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "South Asia",
+      "summary": "The World Bank’s Board of Executive Directors today approved financing to accelerate India’s national program for solar rooftops to bring clean energy to millions of homes and create 1.7 million job opportunities across the renewable energy manufacturing, installation, and services value chain.",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/07/09/world-bank-supports-india-s-solar-rooftop-program-to-boost-clean-energy-create-jobs-and-unlock-private-capital",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
+      "id": "wb-945747ebca8c",
+      "n": "World Bank Support to Strengthen Pakistan’s Electricity Grid for Improved Reliability and Accelerated Clean Energy Growth",
+      "lat": 30.4,
+      "lng": 69.3,
+      "u": 64850,
+      "t": "development",
+      "tier": 0,
+      "status": "Live Official Development Finance Signal",
+      "investor": "World Bank Group",
+      "recipient": "Pakistan",
+      "sector": "infrastructure",
+      "form": "Official financing / program approval",
+      "amount": "Amount not extracted",
+      "category": "World Bank Group -> Pakistan",
+      "date": "2026-07-09 11:53 UTC",
+      "source": "World Bank Group",
+      "sourceType": "World Bank public news API",
+      "segment": "infrastructure",
+      "directness": "Official development finance",
+      "assetClass": "Development finance",
+      "bloc": "Global",
+      "summary": "Press release on World Bank Support to Strengthen Pakistan’s Electricity Grid for Improved Reliability and Accelerated Clean Energy Growth",
+      "url": "https://www.worldbank.org/en/news/press-release/2026/07/08/world-bank-support-to-strengthen-pakistan-s-electricity-grid-for-improved-reliability-and-accelerated-clean-energy-growt",
+      "globe": true,
+      "live": true,
+      "isLiveSignal": true,
+      "dataLayer": "Official development finance feed",
+      "sourceCountry": "World Bank Group"
+    },
+    {
       "id": "wb-75a2fc380cde",
       "n": "IFC Launches Standout $2 Billion 5-Year USD Green Benchmark Bond",
       "lat": 20,
       "lng": 0,
-      "u": 64000,
+      "u": 65700,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -49,7 +109,7 @@
       "n": "Madagascar to Boost Urban Resilience and Jobs in Antananarivo and Toamasina",
       "lat": 1.5,
       "lng": 20,
-      "u": 64850,
+      "u": 66550,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -79,7 +139,7 @@
       "n": "World Bank Approves Financing for Resilient Infrastructure and Basic Services to Boost Employment in Salta",
       "lat": 20,
       "lng": 0,
-      "u": 65700,
+      "u": 67400,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -109,7 +169,7 @@
       "n": "Central African Republic: Reforming public finances to support growth",
       "lat": 1.5,
       "lng": 20,
-      "u": 66550,
+      "u": 68250,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -139,7 +199,7 @@
       "n": "World Bank Backs Sri Lanka’s Reform Agenda with US$150 Million to Drive Growth and Resilience",
       "lat": 6.93,
       "lng": 79.86,
-      "u": 67400,
+      "u": 69100,
       "t": "development",
       "tier": 0,
       "status": "Live Official Development Finance Signal",
@@ -163,66 +223,6 @@
       "isLiveSignal": true,
       "dataLayer": "Official development finance feed",
       "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-2e42b2a849e1",
-      "n": "World Bank Group and Morocco Partner to Unlock the Power of Next-Generation Hydropower",
-      "lat": 34.02,
-      "lng": -6.84,
-      "u": 68250,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Morocco",
-      "sector": "Hydropower",
-      "form": "Official financing / program approval",
-      "amount": "$265 million",
-      "category": "World Bank Group -> Morocco",
-      "date": "2026-07-01 10:56 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Middle East and North Africa",
-      "summary": "The World Bank Board of Directors today approved $265 million to support the Ifahsa Pumped Hydropower Storage Project in Morocco, a major clean energy infrastructure investment in northern Morocco and one of the most significant of its kind on the African continent.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/07/01/world-bank-group-and-morocco-partner-to-unlock-the-power-of-next-generation-hydropower",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
-    },
-    {
-      "id": "wb-142e52a89ed4",
-      "n": "Tajikistan Invests in Water Conservation and Energy Efficiency with World Bank Support",
-      "lat": 43.2,
-      "lng": 55,
-      "u": 69100,
-      "t": "development",
-      "tier": 0,
-      "status": "Live Official Development Finance Signal",
-      "investor": "World Bank Group",
-      "recipient": "Tajikistan",
-      "sector": "Agricultural Water Management",
-      "form": "Official financing / program approval",
-      "amount": "Amount not extracted",
-      "category": "World Bank Group -> Tajikistan",
-      "date": "2026-07-01 08:20 UTC",
-      "source": "World Bank Group",
-      "sourceType": "World Bank public news API",
-      "segment": "infrastructure",
-      "directness": "Official development finance",
-      "assetClass": "Development finance",
-      "bloc": "Europe and Central Asia",
-      "summary": "With World Bank support, Tajikistan will modernize water and irrigation systems and support ongoing reforms to improve water management.",
-      "url": "https://www.worldbank.org/en/news/press-release/2026/07/01/tajikistan-invests-in-water-conservation-and-energy-efficiency-with-world-bank-support",
-      "globe": true,
-      "live": true,
-      "isLiveSignal": true,
-      "dataLayer": "Official development finance feed",
-      "sourceCountry": "World Bank Group"
     }
   ],
   "routes": [
@@ -232,10 +232,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 20,
-        "lng": 0
+        "lat": 28.61,
+        "lng": 77.21
       },
-      "label": "World Bank Group -> Global live signal",
+      "label": "World Bank Group -> India live signal",
       "intensity": 0.78,
       "isLiveSignal": true
     },
@@ -245,10 +245,10 @@
         "lng": -77.04
       },
       "to": {
-        "lat": 1.5,
-        "lng": 20
+        "lat": 30.4,
+        "lng": 69.3
       },
-      "label": "World Bank Group -> Madagascar live signal",
+      "label": "World Bank Group -> Pakistan live signal",
       "intensity": 0.77,
       "isLiveSignal": true
     },
@@ -274,8 +274,34 @@
         "lat": 1.5,
         "lng": 20
       },
-      "label": "World Bank Group -> Central African Republic live signal",
+      "label": "World Bank Group -> Madagascar live signal",
       "intensity": 0.75,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 20,
+        "lng": 0
+      },
+      "label": "World Bank Group -> Global live signal",
+      "intensity": 0.74,
+      "isLiveSignal": true
+    },
+    {
+      "from": {
+        "lat": 38.9,
+        "lng": -77.04
+      },
+      "to": {
+        "lat": 1.5,
+        "lng": 20
+      },
+      "label": "World Bank Group -> Central African Republic live signal",
+      "intensity": 0.73,
       "isLiveSignal": true
     },
     {
@@ -288,32 +314,6 @@
         "lng": 79.86
       },
       "label": "World Bank Group -> Sri Lanka live signal",
-      "intensity": 0.74,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 34.02,
-        "lng": -6.84
-      },
-      "label": "World Bank Group -> Morocco live signal",
-      "intensity": 0.73,
-      "isLiveSignal": true
-    },
-    {
-      "from": {
-        "lat": 38.9,
-        "lng": -77.04
-      },
-      "to": {
-        "lat": 43.2,
-        "lng": 55
-      },
-      "label": "World Bank Group -> Tajikistan live signal",
       "intensity": 0.72,
       "isLiveSignal": true
     }
